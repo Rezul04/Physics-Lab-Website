@@ -1,0 +1,16 @@
+.Highlights{
+    width:70%;
+    margin: 40px;
+}
+.item{
+    border-radius: 50%;
+    background-color: rgba(64, 81, 78, 0.30);
+    color: #40514E;;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    font-family: 'Archivo', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
