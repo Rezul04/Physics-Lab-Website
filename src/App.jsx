@@ -7,9 +7,9 @@ import {News} from "./News/News";
 function App() {
   return (
     <>
+    <Navbar/>
     <News/>
     
-    <Navbar/>
     </>
   )
 }
