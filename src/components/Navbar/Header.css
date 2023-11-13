@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: 'Archivo', sans-serif;
+}
+
+.navbar {
+  background-color: #40514e;
+  color: #e4f9f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  height: 35px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.title {
+  margin: 0;
+}
+
+.nav-links a {
+  color: #e4f9f5;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 20px; 
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Archivo', sans-serif; 
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}

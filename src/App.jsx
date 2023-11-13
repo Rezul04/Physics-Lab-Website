@@ -1,15 +1,15 @@
 import React from 'react'
-import { Navbar } from './components/Home/Navbar'
-
+import {Header} from "./components/Navbar/Header"
 import './App.css'
-import {News} from "./News/News";
+// import {News} from "./News/News";
 
 function App() {
   return (
     <>
     <Navbar/>
-    <News/>
+    {/* <News/> */}
     
+    <Navbar/>
     </>
   )
 }
