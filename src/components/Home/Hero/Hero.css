@@ -1,0 +1,27 @@
+/* src/components/HeroSection.css */
+
+.hero-section {
+    background-image: url('../../../assets/HomeHero.jpg'); /* Adjust the path based on your project structure */
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Set your preferred height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff; /* Text color */
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
