@@ -23,6 +23,7 @@
 }
 .homeMainRight>.heading{
     text-align: center;
+    background: none;
 }
 .homeMainRight>.content{
     /* text-align: center; */

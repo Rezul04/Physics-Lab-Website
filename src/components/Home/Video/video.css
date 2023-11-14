@@ -1,0 +1,30 @@
+.homeVideo{
+    height: 50rem;
+    /* border: 1px solid black; */
+    padding:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.homeVideo>.heading>h3{
+    text-align: center;
+    font-size: 3rem;
+   
+}
+.homeVideo>.heading{
+    background: none;
+}
+.videoHolder{
+    height:80%;
+    border:1px solid black;
+    width:80%;
+}
+.videoHolder>iframe{
+    height:100%;
+    width: 100%;
+}
+.videoHolder>video{
+    height:100%;
+    width: 100%;
+}

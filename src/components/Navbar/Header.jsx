@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <>
 
-<div className="navbar">
+<div className="navbar2">
       <div className="logo-container">
         <img src={logo} alt="Logo" className="logo" />
         <h1 className="title">DTU Physics Lab</h1>

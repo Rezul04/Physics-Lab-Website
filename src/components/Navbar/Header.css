@@ -3,7 +3,7 @@ body {
   font-family: 'Archivo', sans-serif;
 }
 
-.navbar {
+/* .navbar {
   background-color: #40514e;
   color: #e4f9f5;
   display: flex;
@@ -11,8 +11,16 @@ body {
   align-items: center;
   padding: 15px 20px;
   height: 35px;
+} */
+.navbar2{
+  background-color:#40514e;
+  color: #e4f9f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  padding:0 1rem;
 }
-
 .logo-container {
   display: flex;
   align-items: center;

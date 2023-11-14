@@ -1,0 +1,47 @@
+.homeHighlights{
+    /* border: 1px solid black; */
+    height:57rem;
+}
+
+.homeHighlights>.heading{
+    text-align: center;
+    margin-top: 1rem;
+    
+}
+.homeHighlights>.heading>h1{
+    font-size: 3rem;
+}
+.homeHighlights>.heading{
+    background:none;
+}
+.cardHolder{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:calc(100% - 5rem);
+}
+.myCard{
+    margin:1rem 2rem;
+    height:91%;
+    width:20%;
+    background-color: rgb(229, 214, 195);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem 2rem 0 0 ;
+    /* justify-content: space-between; */
+    
+}
+.cardImage{
+    background:url("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg");
+    /* border: 1px solid black; */
+    height:40%;
+    width:100%;
+    border-radius: 2rem 2rem 0 0 ;
+    margin-bottom: 2rem;
+}
+.cardText{
+    font-size: 1.2rem;
+    margin:0rem 1rem;
+    text-align: center;
+}
