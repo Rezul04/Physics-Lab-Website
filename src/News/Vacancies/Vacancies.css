@@ -1,4 +1,18 @@
+.vacancies{
+    width: 75%;
+}
 .vacancy{
-    border-radius: 70px;
+    padding: 2% 10%;
+    border-radius: 40px;
     background: rgba(17, 153, 158, 0.45);
+    margin: 50px 0px;
+}
+.vacancy h2{
+font-weight: 700;
+}
+.vacancy h3{
+font-weight: 700;
+}
+.vacancy p{
+    font-size: 15px;
 }

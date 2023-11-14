@@ -14,3 +14,9 @@
     align-items: center;
     justify-content: center;
 }
+.item h1{
+    font-weight: 800;
+}
+.item h4{
+    font-weight: 700;
+}
