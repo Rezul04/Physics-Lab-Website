@@ -3,6 +3,7 @@ import {Header} from "./components/Navbar/Header"
 import './App.css'
 import {News} from "./News/News";
 import Home from './components/Home/Home';
+import Publications from './components/Publications/Publications';
 // import {News} from "./News/News";
 // import { Home } from './components/Home/Home';
 import { Research } from './components/Research/Research';
@@ -11,11 +12,13 @@ function App() {
   return (
     <>
     <Header/>
-    <Home />
-    <News/>
+    {/* <Home /> */}
+    {/* <News/> */}
     {/* <News/> */}
     {/* <Research/> */}
     {/* <Header/> */}
+    
+    <Publications/>
     </>
   )
 }
