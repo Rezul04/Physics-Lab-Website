@@ -4,6 +4,7 @@ import './App.css'
 import {News} from "./News/News";
 import Home from './components/Home/Home';
 import Publications from './components/Publications/Publications';
+import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 // import {News} from "./News/News";
 // import { Home } from './components/Home/Home';
 import { Research } from './components/Research/Research';
@@ -12,15 +13,19 @@ import { Team } from './components/Team/Team';
 function App() {
   return (
     <>
-    <Header/>
-    {/* <Home /> */}
-    {/* <News/> */}
-    <Team/>
-    {/* <News/> */}
-    {/* <Research/> */}
-    {/* <Header/> */}
-    
-    <Publications/>
+    <Router>
+        <Header/>
+
+        <Routes>
+          <Route exact path='/' element={<Home/>}/>
+          <Route exact path='/news' element={<News/>}/>
+          <Route exact path='/team' element={<Team/>}/>
+          <Route exact path='/research' element={<Research/>}/>
+          <Route exact path='/publications' element={<Publications/>}/>
+
+        </Routes>
+        {/* <Footer /> */}
+    </Router>
     </>
   )
 }
