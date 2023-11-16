@@ -9,7 +9,6 @@ width:50%;
 }
 .right{
 width:50%;
-display:list-item;
 width: 699px;
 height: 319px;
 flex-shrink: 0;
