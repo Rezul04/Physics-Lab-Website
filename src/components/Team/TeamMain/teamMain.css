@@ -1,0 +1,31 @@
+.teamMain{
+    height:30rem;
+    /* border:1px solid black; */
+    margin:1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.teamMain>.left{
+    background: url('src/assets/HomeHero.jpg');
+    height:70%;
+    margin-left: 2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:35%;
+    /* border-radius: 2rem; */
+}
+.teamMain>.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:70%;
+    width:55%;
+}
+.teamMain>.right>h3{
+    font-size: 4rem;
+    /* text-align: center; */
+}
+.teamMain>.right>.content{
+    font-size: 1.6rem;
+}

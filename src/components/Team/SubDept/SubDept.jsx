@@ -7,7 +7,7 @@ export const SubDept = () => {
     <h1 className='text-center mt-3'>Sub Dept</h1>
     <div className="SubDept">
       
-      <div className="card">
+      <div className="myCard">
         <div className="cardImg"></div>
         <div className="cardBody">
           <div className="cardTitle">
@@ -18,7 +18,7 @@ export const SubDept = () => {
           </div>
         </div>
       </div>
-      <div className="card">
+      <div className="myCard">
         <div className="cardImg"></div>
         <div className="cardBody">
           <div className="cardTitle">
@@ -29,7 +29,7 @@ export const SubDept = () => {
           </div>
         </div>
       </div>
-      <div className="card">
+      <div className="myCard">
         <div className="cardImg"></div>
         <div className="cardBody">
           <div className="cardTitle">
