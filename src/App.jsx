@@ -7,6 +7,7 @@ import Publications from './components/Publications/Publications';
 // import {News} from "./News/News";
 // import { Home } from './components/Home/Home';
 import { Research } from './components/Research/Research';
+import { Team } from './components/Team/Team';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Header/>
     {/* <Home /> */}
     {/* <News/> */}
+    <Team/>
     {/* <News/> */}
     {/* <Research/> */}
     {/* <Header/> */}
