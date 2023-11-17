@@ -1,9 +1,7 @@
 import React from 'react'
 import './Research.css'
-import { Header } from '../Navbar/Header'
 import { ResearchThemes } from './ResearchThemes/ResearchThemes'
-
-
+import { ResearchHero } from './ResearchHero/ResearchHero'
 export const Research = () => {
     const researchThemes=[{
         sno:1,
@@ -18,8 +16,10 @@ export const Research = () => {
 ]
   return (
     <>
+    <ResearchHero/>
     <div className="heading">Research Themes</div>
     <ResearchThemes researchThemes={researchThemes}/>
+
     </>
   )
 }

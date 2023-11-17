@@ -9,7 +9,13 @@ export const ResearchThemes = (props) => {
     //        return (<Theme theme={theme} key={theme.sno}/>)
     // })}</div>
     <>
+    <div>
     <Theme/>
+    <Theme/>
+    <Theme/>
+    <Theme/>
+    </div>
+  
     </>
   )
 }
