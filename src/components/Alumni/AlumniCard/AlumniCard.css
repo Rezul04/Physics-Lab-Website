@@ -1,0 +1,39 @@
+.alumniCard{
+    position: relative;
+    width: 35rem;
+    height: 40rem;
+flex-shrink: 0;
+border-radius: 30px;
+background: #E6E6E6;
+margin-bottom: 10rem;
+}
+.alumniCardName{
+    position: absolute;
+    width: 100%;
+    height: 10rem;
+    bottom: 0%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 0px 0px 26px 26px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0.26%, #808080 99.74%);
+}
+#alumniName{
+    color: var(--general-color-3, #FFF);
+    text-align: center;
+    
+    /* Bold/32px */
+    font-size: 3rem;
+    font-family: Space Grotesk;
+    font-style: normal;
+    font-weight: 700;
+}
+#alumniDesc{
+    color: var(--general-color-3, #FFF);
+    text-align: center;
+    font-size: 1.5rem;
+    /* Regular/21px */
+    font-family: Space Grotesk;
+    font-style: normal;
+    font-weight: 400;
+}

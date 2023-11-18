@@ -9,7 +9,7 @@ import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 // import { Home } from './components/Home/Home';
 import { Research } from './components/Research/Research';
 import { Team } from './components/Team/Team';
-
+import { Alumni } from './components/Alumni/Alumni';
 function App() {
   return (
     <>
@@ -22,6 +22,7 @@ function App() {
           <Route exact path='/team' element={<Team/>}/>
           <Route exact path='/research' element={<Research/>}/>
           <Route exact path='/publications' element={<Publications/>}/>
+          <Route exact path='/alumni' element={<Alumni/>}/>
 
         </Routes>
         {/* <Footer /> */}
