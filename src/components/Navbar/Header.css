@@ -36,6 +36,20 @@ body {
 .title {
   margin: 0;
 }
+.title :hover{
+  text-decoration: none;
+  color: #e4f9f5;
+}
+
+
+.homeLink{
+  text-decoration: none;
+  color: #e4f9f5;
+}
+.homeLink a:hover{
+  text-decoration: none;
+  color: #e4f9f5;
+}
 
 .nav-links a {
   color: #e4f9f5;

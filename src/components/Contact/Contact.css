@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #333;
+    transition: background-image 1s ease;
+}
+.contact{
+    background-image: url("../../assets/ContactBg.jpg");
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.left-column {
+    flex: 0 0 40%;
+    padding: 20px;
+    background: rgba(181, 147, 147, 0.5);
+    text-align: center;
+    color: #333;
+    border-radius: 15px;
+    margin: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.left-column:hover {
+    background-color: rgba(181, 147, 147, 0.8);
+}
+
+.left-column h2 {
+    margin-bottom: 1px;
+    font-size: 3vw;
+    color: #000;
+}
+
+.left-column p {
+    padding: .5vw;
+    text-align: left;
+    font-size: 1vw;
+    margin-bottom: 1vw;
+}
+
+.left-column strong {
+    font-size: 1.5vw;
+}
+
+.right-column {
+    flex: 1;
+    padding: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+#map {
+    width: 90%;
+    height: 400px;
+    margin: 20px auto;
+    display: block;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+#footer-image {
+    border-radius: 0px;
+    max-height: 40vh;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .left-column, .right-column {
+        flex: 100%;
+    }
+
+    #map {
+        height: 200px;
+    }
+
+    .left-column h2 {
+        font-size: 8vw;
+    }
+
+    .left-column p {
+        font-size: 3vw;
+    }
+
+    .left-column strong {
+        font-size: 4vw;
+    }
+}

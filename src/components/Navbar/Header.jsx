@@ -10,7 +10,7 @@ export const Header = () => {
 <div className="navbar2">
       <div className="logo-container">
         <img src={logo} alt="Logo" className="logo" />
-        <h1 className="title">DTU Physics Lab</h1>
+        <h1 className="title"><Link to='/' className='homeLink'>DTU Physics Lab</Link></h1>
       </div>
       <div className="nav-links">
         <Link to='/'>Home</Link>
