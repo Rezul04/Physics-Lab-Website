@@ -3,6 +3,7 @@ import {Hero} from './Hero/Hero'
 import HomeMain from './HomeMain/HomeMain'
 import Highlights from './Highlights/Highlights'
 import Video from './Video/Video'
+import Gallery from './Gallery/Gallery'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <HomeMain/>
       <Highlights/>
       <Video/>
+      <Gallery/>
     </div>
   )
 }

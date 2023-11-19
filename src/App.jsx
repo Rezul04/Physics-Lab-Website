@@ -9,6 +9,7 @@ import { Research } from './components/Research/Research';
 import { Team } from './components/Team/Team';
 import { Alumni } from './components/Alumni/Alumni';
 import { Contact } from './components/Contact/Contact';
+import  Footer from './components/Footer/Footer';
 function App() {
   return (
     <>
@@ -25,7 +26,7 @@ function App() {
           <Route exact path='/contact' element={<Contact/>}/>
 
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
     </Router>
     </>
   )
