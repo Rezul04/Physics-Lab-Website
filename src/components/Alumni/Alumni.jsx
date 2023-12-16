@@ -1,10 +1,12 @@
 import React from 'react'
 import './Alumni.css'
 import { AlumniCard } from './AlumniCard/AlumniCard'
+import { AlumniHero } from './AlumniHero/AlumniHero'
 
 export const Alumni = () => {
   return (
     <>
+    <AlumniHero/>
     <div className="alumniMain">
     <div className="alumniTitle">
         Alumni
