@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage from '../../assets/NewsHero.jpeg';
+import ExampleCarouselImage from '../../../assets/NewsHero.jpeg';
+import News2 from '../../../assets/News2.png';
 import "./NewsCarousel.css";
 
 export const NewsCarousel = () => {
@@ -22,7 +23,7 @@ export const NewsCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={ExampleCarouselImage}
+          src={News2}
           alt="Second slide"
         />
         <Carousel.Caption>

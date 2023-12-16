@@ -1,7 +1,7 @@
 import {React} from 'react';
 import {Header} from "./components/Navbar/Header"
 import './App.css'
-import {News} from "./News/News";
+import {News} from "./components/News/News";
 import Home from './components/Home/Home';
 import Publications from './components/Publications/Publications';
 import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';

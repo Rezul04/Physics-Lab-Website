@@ -3,7 +3,8 @@
     border-radius: 122px;
 }
 .carousel img{
-    border-radius: 122px;
+    height: 400px;
+    border-radius: 50px;
     object-fit: cover;
 }
 .heading1{
