@@ -71,3 +71,9 @@ body {
   transform: scale(1.10);
 
 }
+.nav-links a:focus {
+  transform: scale(1.15);
+  color: rgb(255, 255, 255);
+  
+
+}
