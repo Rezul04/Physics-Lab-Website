@@ -59,8 +59,15 @@ body {
   font-weight: bold;
   font-size: 18px;
   font-family: 'Archivo', sans-serif; 
+  flex-basis: calc(33.33% - 20px);
+    transition: transform 0.1s ease;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
 }
 
 .nav-links a:hover {
-  text-decoration: underline;
+  transform: scale(1.10);
+
 }

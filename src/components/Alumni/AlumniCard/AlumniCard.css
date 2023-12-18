@@ -4,8 +4,9 @@
     height: 40rem;
 flex-shrink: 0;
 border-radius: 30px;
-background: #E6E6E6;
+background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGnoyoFHmxBmYhNqFMWyeXbBjBIon1VGgkqw&usqp=CAU');
 margin-bottom: 10rem;
+
 }
 .alumniCardName{
     position: absolute;
@@ -14,11 +15,11 @@ margin-bottom: 10rem;
     bottom: 0%;
     align-items: center;
     text-align: center;
-    justify-content: center;
     border-radius: 0px 0px 26px 26px;
 background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0.26%, #808080 99.74%);
 }
 #alumniName{
+    
     color: var(--general-color-3, #FFF);
     text-align: center;
     
@@ -27,6 +28,7 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0.26%, #808080 99.
     font-family: Space Grotesk;
     font-style: normal;
     font-weight: 700;
+    
 }
 #alumniDesc{
     color: var(--general-color-3, #FFF);
@@ -36,4 +38,5 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0.26%, #808080 99.
     font-family: Space Grotesk;
     font-style: normal;
     font-weight: 400;
+  
 }
