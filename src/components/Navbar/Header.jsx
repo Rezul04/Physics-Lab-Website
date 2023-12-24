@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import logo from '../../assets/DTUlogo.jpg'
+import logo from '../../assets/DTU-logo.png'
 import { Link } from "react-router-dom";
 
 export const Header = () => {
