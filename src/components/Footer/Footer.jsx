@@ -6,9 +6,9 @@ const Footer = () => {
     <>
     <div className="footer">
         <div className="footer-content">
-            <div className="column">
+            {/* <div className="column">
                 <img src="http://intaffairs.dtu.ac.in/dtu-logo.png" alt="Logo" />
-            </div>
+            </div> */}
             <div className="column">
                 <div className="column-heading">Quick Links</div>
                 <ul className="quick-links">
@@ -32,7 +32,7 @@ const Footer = () => {
                     Phone: 123-456-7890<br />
                     Email: info@example.com</p>
             </div>
-            <div className="column">
+            {/* <div className="column">
                 <div className="column-heading">Location</div>
                 <div className="map-container">
                     <iframe
@@ -40,7 +40,7 @@ const Footer = () => {
                         width="100%" height="100%" allowFullScreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
     </>

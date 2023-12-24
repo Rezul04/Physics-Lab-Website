@@ -7,7 +7,7 @@ export const AlumniHero = () => {
       <img src="../../../assets/alumni2.png" alt="" id="bottom-image"/>
     <div className="container">
         <div className="right-section">
-            <div className="heading">Alumni: Where Memories Meet Futures&#160 </div>
+            <div className="headingAlumni">Alumni: Where Memories Meet Futures&#160 </div>
             <div className="sub-text">At DTU, we take great pride in our vibrant community of alumni who have achieved
                 remarkable milestones and contributed significantly to various fields.</div>
         </div>
