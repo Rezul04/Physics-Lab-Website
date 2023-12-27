@@ -9,7 +9,11 @@ export const Contact = () => {
             <h2>Get In Touch</h2>
             <p><strong>Phone:</strong><br/> +123 456 789</p>
             <p><strong>Email:</strong><br/> team_leader@example.com</p>
-            <p><strong>Address:</strong><br/> 123 Main Street, City, Country</p>
+            <p><strong>Address:</strong><br/> Delhi Technological University,<br />
+                    Shahbad Daulatpur,
+                    Main Bawana Road,<br/>
+                    Delhi-110042,
+                    India<br/></p>
         </div>
 
         <div class="right-column">

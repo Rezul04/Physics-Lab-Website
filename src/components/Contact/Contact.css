@@ -36,6 +36,7 @@ section {
     border-radius: 15px;
     margin: 10px;
     transition: background-color 0.5s ease;
+    
 }
 
 .left-column:hover {
@@ -51,7 +52,7 @@ section {
 .left-column p {
     padding: .5vw;
     text-align: left;
-    font-size: 1vw;
+    font-size: 1.3vw;
     margin-bottom: 1vw;
 }
 

@@ -9,7 +9,18 @@ const Footer = () => {
             {/* <div className="column">
                 <img src="http://intaffairs.dtu.ac.in/dtu-logo.png" alt="Logo" />
             </div> */}
-            <div className="column">
+            <div className='w-50 ml-3 mr-3'>
+            <div className="column-heading">Quick Links</div>
+            <ul className="quick-links d-flex justify-content-around">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Research</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">People</a></li>
+                    <li><a href="#">Alumni</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            {/* <div className="column">
                 <div className="column-heading">Quick Links</div>
                 <ul className="quick-links">
                     <li><a href="#">Home</a></li>
@@ -31,7 +42,7 @@ const Footer = () => {
 
                     Phone: 123-456-7890<br />
                     Email: info@example.com</p>
-            </div>
+            </div> */}
             {/* <div className="column">
                 <div className="column-heading">Location</div>
                 <div className="map-container">
