@@ -7,12 +7,12 @@ import { Profile } from './Profile/Profile'
 export const Team = () => {
   return (
     <>
-    <Profile/>
-    {/* <TeamHero/>
+    {/* <Profile/> */}
+    <TeamHero/>
     <TeamMain/>
     <SubDept/>
     <SubDept/>
-    <SubDept/> */}
+    <SubDept/>
     </>
   )
 }
