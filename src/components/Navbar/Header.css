@@ -1,52 +1,33 @@
 body {
   margin: 0;
-  font-family: 'Archivo', sans-serif;
+  font-family: "Archivo", sans-serif;
 }
-
-/* .navbar {
+.navbar2 {
   background-color: #40514e;
   color: #e4f9f5;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
-  height: 35px;
-} */
-.navbar2{
-  background-color:#40514e;
-  color: #e4f9f5;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 6rem;
-  padding:0 1rem;
+  padding: 0 1rem;
   width: 100%;
 }
 .logo-container {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .logo {
-  width: 40px;
-  height: auto;
-  margin-right: 10px;
+  width: 4rem;
+  height: 4rem;
+  /* margin-right: 10px; */
 }
 
 .title {
   margin: 0;
 }
-.title :hover{
-  text-decoration: none;
-  color: #e4f9f5;
-}
-
-
-.homeLink{
-  text-decoration: none;
-  color: #e4f9f5;
-}
-.homeLink a:hover{
+.title :hover {
   text-decoration: none;
   color: #e4f9f5;
 }
@@ -55,25 +36,75 @@ body {
   color: #e4f9f5;
   text-decoration: none;
   margin-left: 15px;
-  margin-right: 20px; 
+  margin-right: 20px;
   font-weight: bold;
   font-size: 18px;
-  font-family: 'Archivo', sans-serif; 
+  font-family: "Archivo", sans-serif;
   flex-basis: calc(33.33% - 20px);
-    transition: transform 0.1s ease;
+  transition: transform 0.1s ease;
 }
-.nav-links{
+.nav-links {
   display: flex;
   justify-content: space-around;
 }
 
 .nav-links a:hover {
-  transform: scale(1.10);
-
+  transform: scale(1.1);
 }
 .nav-links a:focus {
   transform: scale(1.15);
   color: rgb(255, 255, 255);
-  
+}
+.hamburger {
+  display: none;
+}
+.showMobMenu {
+  display: none;
+}
 
+@media screen and (max-width: 900px) {
+  .logo-container > .title,
+  .nav-links {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-left: 3rem;
+    order: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    z-index: 2;
+  }
+
+  .myMobMenu {
+    width: 15rem;
+    height: 30rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0rem 2rem;
+    position: absolute;
+    top: 8rem;
+
+    right: 2rem;
+    border-radius: 2rem;
+    z-index: 2;
+    background-color: var(--dark-color);
+    font-size: 1.4rem;
+  }
+  .mobItem {
+    margin: 1rem 0;
+    color: var(--light-color);
+    text-decoration: none;
+  }
+  .mobItem:hover {
+    color: var(--light-color);
+  }
 }
