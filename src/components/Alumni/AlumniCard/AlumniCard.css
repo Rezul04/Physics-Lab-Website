@@ -1,13 +1,19 @@
 .alumniCard{
     position: relative;
-    width: 35rem;
-    height: 40rem;
+    width: 30rem;
+    height: 35rem;
 flex-shrink: 0;
 border-radius: 30px;
-background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGnoyoFHmxBmYhNqFMWyeXbBjBIon1VGgkqw&usqp=CAU');
+/* background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGnoyoFHmxBmYhNqFMWyeXbBjBIon1VGgkqw&usqp=CAU'); */
 margin-bottom: 10rem;
+box-shadow: 0px 0px 7px rgb(226, 226, 226);
 
 }
+.alumniCard img{
+    object-fit: cover;
+
+}
+
 .alumniCardName{
     position: absolute;
     width: 100%;
