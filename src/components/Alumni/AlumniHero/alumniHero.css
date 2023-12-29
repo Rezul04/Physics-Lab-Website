@@ -1,8 +1,8 @@
-/* * {
-    margin: 0;
+  #alumni_wrapper{
+    /* background-color: rgba(232, 211, 211, 0); */
     font-family: 'Arial', sans-serif;
     position: relative;
-} */
+} 
 
 .AlumniHeroContainer {
     padding: 6%;
@@ -11,11 +11,12 @@
     justify-content: center;
     background: linear-gradient(to right, rgba(1, 255, 103, 0.22), rgb(216, 190, 18, 0.1));
     overflow: hidden; 
-/*     margin-top: 75px; */
+/*  margin-top: 75px; */
     position: relative;
     margin-left: auto;
     margin-right: auto;
     flex: 1;
+    /* z-index: -2; */
 }
 
 .right-section {
@@ -27,7 +28,7 @@
 }
 
 .headingAlumni {
-    font-size: 3em;
+    font-size: 4rem;
     font-weight: bold;
     color: #40514E;
     position: relative;
@@ -35,19 +36,19 @@
 }
 
 .sub-text {
-    font-size: 1.1em;
+    font-size: 2rem;
     padding-top: 15px;
     color: black;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.5em;
     word-wrap: break-word;
 }
 
 img#bottom-image {
     position: absolute;
-    top: 177px;
-    left: -70px;
-    width: 30%;
+    bottom: -100px;
+    left: -100px;
+    width: 25%;
     height: auto;
     margin: 10px;
     z-index: 1;
@@ -55,9 +56,9 @@ img#bottom-image {
 
 img#top-right {
     position: absolute;
-    top: -83px;
-    right: -64px;
-    width: 30%;
+    top: -50px;
+    right: -50px;
+    width: 40vh;
     object-fit: cover;
     
 }
@@ -87,7 +88,7 @@ img#top-right {
     position: absolute;
     top: -70px;
     right: -80px;
-    width: 20vh;
+    width: 30vh;
     object-fit: cover;
     
 }

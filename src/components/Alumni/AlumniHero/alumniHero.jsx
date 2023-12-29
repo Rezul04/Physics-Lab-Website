@@ -6,6 +6,8 @@ import alumni2 from "../../../assets/alumni2.png"
 export const AlumniHero = () => {
   return (
     <div>
+      <div id="alumni_wrapper">
+
       <img src={alumni2} alt="" id="bottom-image"/>
     <div className="AlumniHeroContainer">
         <div className="right-section">
@@ -14,6 +16,7 @@ export const AlumniHero = () => {
                 remarkable milestones and contributed significantly to various fields.</div>
         </div>
         <img src={alumni1} alt="" id="top-right"/>
+      </div>
     </div>
     </div>
   )
