@@ -15,7 +15,9 @@ export const Theme = (theme) => {
             <div className="desc">
               svnldskvv vjvj pov vpor kvpdr vpor pvrop vpor voprj vpojro vjewo fopew fpoew fpojw epfj wepofj powej fpowej fpojew pofjwe pofjwepo jfpowe jfpowej pofj wepofj powe jfpowej fpowj epof wepj fpwejfpjwepofjwep
             </div>
-            <button id="learnMore"><link rel="stylesheet" href="#" />Learn More</button>
+            <div className="learnMore">
+            Learn More
+            </div>
           </div>
         </div>
 

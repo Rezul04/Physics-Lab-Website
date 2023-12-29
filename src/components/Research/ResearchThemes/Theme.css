@@ -15,6 +15,7 @@ height: 28rem;
 .themeBlock>.left{
 width:45%;
 height:100%;
+overflow: hidden;
 
 }
 .themeBlock{
@@ -31,7 +32,7 @@ align-items: center;
 
 }
 .title1{
-height:30%;
+height:auto;
 padding-top: 10px;
 color: #004D6C;
 font-size: 28px;
@@ -40,17 +41,19 @@ font-weight: 500;
 line-height: normal;
 }
 .desc{
-height:50%;
+height:auto;
 width: 100%;
-height: 138.519px;
 flex-shrink: 0;
 color: #A6A6A6;
 font-size: 21px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+padding-bottom: 9px;
 }
-#learnMore{
+.learnMore{
+    position: relative;
+    bottom: 0px;
 height:20%;
 display: inline-flex;
 padding: 8px 24px;
@@ -66,7 +69,7 @@ font-weight: 500;
 line-height: normal;
 border: none;
 }
-#learnMore:hover{
+.learnMore:hover{
     background: #52ffe8;
 
 }
@@ -97,5 +100,7 @@ padding: 20px 5px 55px;
 float: right;
 gap: 5px;
 justify-items:flex-end;
+box-sizing: border-box; 
+  margin-bottom: 0px;
 
 }
