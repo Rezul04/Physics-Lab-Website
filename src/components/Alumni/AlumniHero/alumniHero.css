@@ -11,7 +11,7 @@
     justify-content: center;
     background: linear-gradient(to right, rgba(1, 255, 103, 0.22), rgb(216, 190, 18, 0.1));
     overflow: hidden; 
-    margin-top: 75px;
+/*     margin-top: 75px; */
     position: relative;
     margin-left: auto;
     margin-right: auto;
