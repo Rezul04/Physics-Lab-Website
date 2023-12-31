@@ -17,7 +17,7 @@
 }
 
 .list h2 {
-  color: #aaa;
+  color:var(--dark-color);
   font-weight: 700;
   letter-spacing: 1px;
   margin-bottom: 10px;
@@ -36,7 +36,7 @@
   list-style: none;
   margin: 4rem 0;
   font-size:2rem;
-  border-left: 2px solid #f50057;
+  border-left: 2px solid var(--secondary-color);
   transition: 0.5s;
   cursor: pointer;
 }
@@ -69,15 +69,18 @@
 }
 .list>.yearBox{
     border:1px solid black;
-    background-color: peachpuff;
-    width:10%;
-    height:8rem;
+    background-color:var(--dark-color);
+    width: fit-content;
+    height: fit-content;
+    /* height:8rem; */
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
     margin-left: 5rem;
+    color:var(--light-color);
+    padding:1rem 2rem;
 }
 .vBar{
     height:6rem;
@@ -87,4 +90,43 @@
     position: relative;
     left:7.6rem;
     z-index: -1;
+}
+.choiceHolder{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.choice{
+  margin:1rem 2rem;
+  padding:1.5rem 1rem;
+  border-radius: 1rem;
+  font-size:1.4rem;
+  border: none;
+  background-color: var(--dark-color);
+  color:var(--light-color);
+  min-width:10rem;
+}
+.choice:hover{
+background-color: black;
+transition-duration: 300ms;
+}
+@media screen and (max-width:900px){
+  .choiceHolder{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+  .choice{
+    width:80%;
+  }
+  .list>.yearBox{
+    margin-left:2rem;
+  }
+  .list ul li{
+    margin-left:-9rem;
+  }
 }
