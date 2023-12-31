@@ -1,19 +1,23 @@
 .teamHero{
-    height: 25rem;
+    /* height: 25rem; */
     /* border:1px solid violet; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 background: url('src/assets/team.png');
+background-repeat: no-repeat;
+background-position: center;
 background-size: contain;
-opacity: 0.8;
+opacity: 0.5;
 
 }
 .teamHero>.heading{
     background: none;
     margin-top:1rem;
-    font-size: 4rem;
+    font-size: 5rem;
+    color:var(--secondary-color);
+    /* font-weight: 600; */
 }
 .teamHero>.statsHolder{
     display: flex;
@@ -31,7 +35,7 @@ opacity: 0.8;
 .teamHero>.statsHolder>.item{
     border-radius: 50%;
     background-color: rgba(64, 81, 78,0.8);
-    color: #40514E;;
+    color: #40514E;
     width: 12rem;
     height: 12rem;
     display: flex;
@@ -45,11 +49,16 @@ opacity: 0.8;
 .item h1{
     font-weight: 800;
     font-size:3rem;
-   
     color: white;
 }
 .item h4{
     font-weight: 700;
     font-size: 1.6rem;
     color: white;
+}
+
+@media screen and (max-width:480px){
+    .teamHero>.statsHolder{
+        display: none;
+    }
 }

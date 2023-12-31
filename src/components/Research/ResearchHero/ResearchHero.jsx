@@ -7,7 +7,7 @@ export const ResearchHero = () => {
             <div className="rMainContainer">
                 <div className="left">
                     <h1 id="currentTheme">Current Research initiatives</h1>
-                    <p id="initiatives">jkwdbcekjwbjwkcnfv chd cjd cjk djeqh djew jkwdbcekjwbjwkcnfv chd cjd cjk djeqh djew jkwdbcekjwbjwkcnfv chd cjd cjk djeqh djew jkwdbcekjwbjwkcnfv chd cjd cjk djeqh djew jkwdbcekjwbjwkcnfv chd cjd cjk djeqh djew jkwdbcekjwbjwkcnfjkwdbcekjwbjwkcnfv chd cjd cjk djeqh djew jkwdbcekjwbjwkcnfv chd cjd cjk djeqh djew jkwdbcekjwbjwkcnfv chd cjd cjk djeqh djew </p>
+                    <p id="initiatives">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore temporibus voluptas eveniet accusamus culpa at laborum iusto obcaecati distinctio, tempora cum adipisci ratione animi eius vel, ipsum reiciendis dolor repellat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore placeat voluptatibus ut dolorum aperiam temporibus impedit, totam fuga dolore consectetur officiis nobis quam similique repellendus assumenda, ipsum possimus? Praesentium cum aperiam est tempore perferendis totam iusto repellat debitis sint voluptate?</p>
                 </div>
                 <div className="right">
                     <img id="themeCircle" src={heroImage} alt="" />

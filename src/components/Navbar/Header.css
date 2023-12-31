@@ -26,6 +26,8 @@ body {
 
 .title {
   margin: 0;
+  margin-left:1rem;
+  font-size: 1.8rem;
 }
 .title :hover {
   text-decoration: none;

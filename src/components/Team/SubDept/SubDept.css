@@ -2,7 +2,9 @@
 .SubDept{
     display: flex;
     align-items: center;
-    justify-content: space-around
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-width: 20rem;
 }
 .SubDept>.myCard{
     display: flex;
@@ -14,6 +16,7 @@
     margin: 10px;
     background: none;
     border: none;
+    
 }
 .cardImg{
     background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGnoyoFHmxBmYhNqFMWyeXbBjBIon1VGgkqw&usqp=CAU');

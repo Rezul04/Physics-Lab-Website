@@ -13,7 +13,7 @@ export const Theme = (theme) => {
               Theme title
             </div>
             <div className="desc">
-              svnldskvv vjvj pov vpor kvpdr vpor pvrop vpor voprj vpojro vjewo fopew fpoew fpojw epfj wepofj powej fpowej fpojew pofjwe pofjwepo jfpowe jfpowej pofj wepofj powe jfpowej fpowj epof wepj fpwejfpjwepofjwep
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nesciunt error illo voluptatibus officiis consequuntur aperiam debitis voluptatum, illum asperiores repudiandae nobis et voluptate.
             </div>
             <div className="learnMore">
             Learn More

@@ -5,7 +5,7 @@ const TeamMain = () => {
   return (
     <div className='teamMain'>
      <div className="left">
-        
+        <img src="src/assets/HomeHero.jpg" alt="image"/>
      </div>
      <div className="right">
         <h3>Our HOD</h3>
