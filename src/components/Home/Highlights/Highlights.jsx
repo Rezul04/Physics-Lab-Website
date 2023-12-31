@@ -11,7 +11,7 @@ const Highlights = () => {
      <div className="cardHolder">
      <div className="myCard">
       <div className="cardImage">
-
+      <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg" alt="card-image" />
       </div>
       <div className="cardTitle">
         <h3>Card Title</h3>
@@ -24,7 +24,10 @@ const Highlights = () => {
      <div className="myCard">
       <div className="cardImage">
 
+<img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg" alt="card-image" />
+
       </div>
+
       <div className="cardTitle">
         <h3>Card Title</h3>
       </div>
@@ -35,7 +38,7 @@ const Highlights = () => {
      </div>
      <div className="myCard">
       <div className="cardImage">
-
+      <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg" alt="card-image" />
       </div>
       <div className="cardTitle">
         <h3>Card Title</h3>
