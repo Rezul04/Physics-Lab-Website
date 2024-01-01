@@ -11,6 +11,8 @@ body {
   height: 6rem;
   padding: 0 1rem;
   width: 100%;
+  position:fixed;
+  z-index: 5;
 }
 .logo-container {
   display: flex;
