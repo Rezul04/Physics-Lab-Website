@@ -9,11 +9,13 @@ body {
     color: #333;
     transition: background-image 1s ease;
 }
+
 .contact{
     background-image: url("../../assets/ContactBg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin-top:5rem;    
 }
 
 header {
@@ -21,6 +23,7 @@ header {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
+
 }
 
 section {
