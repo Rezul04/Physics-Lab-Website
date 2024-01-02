@@ -16,9 +16,12 @@ export const Research = () => {
 ]
   return (
     <>
+    <div className="researchMain">
+
     <ResearchHero/>
     <div className="heading">Research Themes</div>
     <ResearchThemes researchThemes={researchThemes}/>
+    </div>
 
     </>
   )

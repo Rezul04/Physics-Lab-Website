@@ -1,6 +1,6 @@
 .heading{
-
-height: 60px;
+width: 100%;
+height: auto;
 flex-shrink: 0;
 background: #FFF;
 font-size: 45px;
@@ -8,4 +8,13 @@ text-align: center;
 color: #004D6C;
 line-height: 118%; /* 56.64px */
 
+}
+.researchMain{
+    width: 100%;
+}
+@media (max-width:400px){
+    .heading{
+        font-size: 25px;
+
+    }
 }

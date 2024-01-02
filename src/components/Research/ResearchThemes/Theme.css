@@ -1,6 +1,6 @@
 .tMain{
-/* width:100%;
-max-height:100px; */
+width:100%;
+
 margin-top: 20px;
 padding: 10px 50px;
 margin-bottom: 20px;
@@ -10,20 +10,20 @@ justify-content: center;
 .themeBlock>.right{
 width:45%;
 float: left;
-/* height: 28rem; */
+height: 80%;
 }
 .themeBlock>.left{
 width:45%;
-/* height:100%; */
+height:100%;
 overflow: hidden;
 
 }
 .themeBlock{
     width:70%;
     display: flex;
-    /* height: 32rem; */
+    height: 35rem;
 flex-shrink: 0;
-padding: 0px 35px;
+padding: 5px 43px;
 border-radius: 3.5rem;
 background: #FFF;
 justify-content: space-between;
@@ -31,9 +31,21 @@ align-items: center;
 
 
 }
+.themeBox{
+    width: 100%;
+    height: 100%;
+border-radius: 3.5rem;
+background: #FFF;
+padding: 5px 0px;
+float: right;
+justify-content: space-between;
+box-sizing: border-box; 
+  margin-bottom: 0px;
+
+}
 .title1{
 height:auto;
-padding-top: 10px;
+/* padding-top: 10px; */
 color: #004D6C;
 font-size: 3vw;
 font-style: normal;
@@ -41,33 +53,26 @@ font-weight: 500;
 line-height: normal;
 }
 .desc{
-height:auto;
+max-height: 60%;
 width: 100%;
 flex-shrink: 0;
 color: #A6A6A6;
 font-size: 1.5vw;
-font-style: normal;
 font-weight: 400;
 line-height: normal;
 padding-bottom: 9px;
 }
 .learnMore{
-    position: relative;
-    bottom: 0px;
-height:20%;
+position: absolute;
+/* height:8%; */
 display: inline-flex;
 padding: 1vw 2vw;
-justify-content: center;
 align-items: center;
-gap: 10px;
 border-radius: 8px;
 background: #30E3CA;
 color: #004D6C;
 font-size: 1.4vw;
-font-style: normal;
 font-weight: 500;
-line-height: normal;
-border: none;
 }
 .learnMore:hover{
     background: #52ffe8;
@@ -87,17 +92,15 @@ border: none;
     object-fit: cover;
 
 }
-.themeBox{
-    width: 100%;
-    height: 100%;
-flex-shrink: 0;
-border-radius: 3.5rem;
-background: #FFF;
-padding: 20px 5px 55px;
-float: right;
-gap: 5px;
-justify-items:flex-end;
-box-sizing: border-box; 
-  margin-bottom: 0px;
 
+@media (max-width:400px){
+    
+    .themeBlock{
+        width: 100%;
+        height:10rem;
+        border-radius: 2rem;
+    }
+    .themeBlock{
+        padding: 0px 20px;
+    }
 }
