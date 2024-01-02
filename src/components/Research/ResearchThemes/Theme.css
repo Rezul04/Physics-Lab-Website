@@ -93,6 +93,28 @@ font-weight: 500;
 
 }
 
+@media (max-width:900px){
+    
+    .themeBlock{
+        width: 90%;
+        height:25rem;
+        border-radius: 3rem;
+    }
+    .themeBlock{
+        padding: 10px 30px;
+    }
+}
+@media (max-width:600px){
+    
+    .themeBlock{
+        width: 90%;
+        height:15rem;
+        border-radius: 2.2rem;
+    }
+    .themeBlock{
+        padding: 10px 30px;
+    }
+}
 @media (max-width:400px){
     
     .themeBlock{
@@ -101,6 +123,6 @@ font-weight: 500;
         border-radius: 2rem;
     }
     .themeBlock{
-        padding: 0px 20px;
+        padding: 4px 20px;
     }
 }
