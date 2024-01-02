@@ -1,7 +1,7 @@
 import React from 'react'
 import './Alumni.css'
 import { AlumniCard } from './AlumniCard/AlumniCard'
-import { AlumniHero } from './AlumniHero/AlumniHero'
+import { AlumniHero } from './AlumniHero/alumniHero'
 
 export const Alumni = () => {
   return (
