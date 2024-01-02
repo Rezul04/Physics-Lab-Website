@@ -1,3 +1,4 @@
+@import "../../../vars.css";
 .homeHighlights{
     /* border: 1px solid black; */
     /* height:50vh; */
@@ -30,7 +31,8 @@
     margin:1rem 2rem;
     height:100%;
     width:20%;
-    background-color: rgb(229, 214, 195);
+    /* background-color: rgb(229, 214, 195); */
+    background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,11 +57,5 @@
     margin:0rem 1rem;
     text-align: center;
 }
-@media screen and (max-width:900px){
-    .cardHolder{
-        /* flex-direction: column; */
-        /* border: 1px solid black; */
-    }
-    
-}
+
 

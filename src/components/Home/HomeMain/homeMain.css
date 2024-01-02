@@ -1,6 +1,7 @@
 .homeMain{
     /* border:1px solid black; */
     height:25rem;
+    margin-top: 20px;
     /* margin:1rem 2rem; */
     display: flex;
     align-items: center;

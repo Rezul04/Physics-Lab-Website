@@ -20,3 +20,8 @@
 .item h4{
     font-weight: 700;
 }
+@media screen and (max-width:800px) {
+    .Highlights{
+        display: none;
+    }
+}
