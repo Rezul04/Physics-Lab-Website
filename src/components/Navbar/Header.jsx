@@ -7,7 +7,7 @@ import { useState, useEffect, useRef } from 'react';
 
 
 export const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
   const menuRef = useRef();
   useEffect(() => { 
@@ -52,12 +52,6 @@ export const Header = () => {
         <Link to="/team">Team</Link>
         <Link to="/alumni">Alumni</Link>
         <Link to="/contact">Contact</Link>
-        {/* <a href="/alumni">Alumni</a>
-        <a href="/p">Publications</a>
-        <a href="#">News</a>
-        <a href="#">People</a>
-        <a href="#">Alumni</a>
-        <a href="#">Contact</a> */}
       </div>
 
 
