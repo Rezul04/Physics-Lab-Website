@@ -12,6 +12,12 @@ line-height: 118%; /* 56.64px */
 .researchMain{
     width: 100%;
 }
+@media (max-width:800px){
+    .heading{
+        font-size: 35px;
+
+    }
+}
 @media (max-width:400px){
     .heading{
         font-size: 25px;
