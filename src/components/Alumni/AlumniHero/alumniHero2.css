@@ -7,7 +7,7 @@
     background-position: center;
     /* background-repeat: no-repeat; */
  
-    height: 20vw; /* Set your preferred height */
+    height: 40vw; /* Set your preferred height */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,8 +42,8 @@
     font-weight: 800;
   }
   @media screen and  (max-width:900px){
-    .hero-section{
-        height:30vw;
+    .hero-section-alumni{
+        height:40vw;
     }
     .hero-content h1 {
     

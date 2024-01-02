@@ -52,10 +52,12 @@ export const NewsCarousel = () => {
         </div>
         </div>
         <Carousel.Caption>
+          <div className="carouselImageHeading">
           <h1>Third slide label</h1>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
