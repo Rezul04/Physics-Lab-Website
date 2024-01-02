@@ -9,8 +9,8 @@ body {
     color: #333;
     transition: background-image 1s ease;
 }
-/* .contact{
-    background-image: url("../../assets/ContactBg.jpg");
+.contact{
+    /* background-image: url("../../assets/ContactBg.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -98,12 +98,12 @@ footer {
     color: #fff;
 }
 
-/* #footer-image {
+ #footer-image {
     border-radius: 0px;
     max-height: 40vh;
     width: 100%;
     margin-top: 20px;
-} */
+}
 
 @media (max-width: 768px) {
     .left-column, .right-column {
