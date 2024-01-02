@@ -9,8 +9,9 @@ const Footer = () => {
             {/* <div className="column">
                 <img src="http://intaffairs.dtu.ac.in/dtu-logo.png" alt="Logo" />
             </div> */}
-            <div className='w-50 ml-3 mr-3'>
-            <div className="column-heading">Quick Links</div>
+            <div className='w-50 mx-auto'>
+            <h4 className="footertext text-center">&copy; Physics Department DTU </h4>
+            <div className="column-heading text-center">Quick Links</div>
             <ul className="quick-links d-flex justify-content-around">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Research</a></li>

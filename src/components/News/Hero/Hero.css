@@ -22,10 +22,10 @@
 /* The hero image */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../../assets/NewsHero.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../../assets/News3.jpg');
   
     /* Set a specific height */
-    height: 400px;
+    height: 350px;
     width: 100vw;
   
     /* Position and center the image to scale nicely on all screens */
@@ -49,7 +49,7 @@
   font-family: Archivo;
   font-size: 60px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 1000;
   line-height: 100%; /* 60px */
   letter-spacing: -0.6px;
   }

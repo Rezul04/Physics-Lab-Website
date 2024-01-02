@@ -5,11 +5,11 @@ export const ResearchHero = () => {
     return (
         <>
             <div className="rMainContainer">
-                <div className="left">
+                <div className="left col-lg-6 mx-auto">
                     <h1 id="currentTheme">Current Research initiatives</h1>
                     <p id="initiatives">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore temporibus voluptas eveniet accusamus culpa at laborum iusto obcaecati distinctio, tempora cum adipisci ratione animi eius vel, ipsum reiciendis dolor repellat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore placeat voluptatibus ut dolorum aperiam temporibus impedit, totam fuga dolore consectetur officiis nobis quam similique repellendus assumenda, ipsum possimus? Praesentium cum aperiam est tempore perferendis totam iusto repellat debitis sint voluptate?</p>
                 </div>
-                <div className="right">
+                <div className="rightPart col-lg-6">
                     <img id="themeCircle" src={heroImage} alt="" />
                     <button className="rec" id='rec1'><svg className='recSVG' xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
                         <ellipse cx="20" cy="20.6603" rx="20" ry="19.6944" fill="#009394" />

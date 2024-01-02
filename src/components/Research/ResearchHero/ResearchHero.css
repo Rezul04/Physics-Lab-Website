@@ -2,14 +2,9 @@
     padding: 49px 72px;
     display:flex;
 }
-.rMainContainer>.left{
-    width: 50%;
-}
-.rMainContainer>.right{
-    width: 50%;
-    position: relative;
-    
 
+.rMainContainer>.rightPart{
+    position: relative; 
 }
 #currentTheme{
     color: #004D6C;
@@ -95,3 +90,8 @@ flex-shrink: 0;
     right: -29px;
     
 }
+@media screen and (max-width: 980px) {
+    .rightPart{
+        display: none;
+    }
+  }
