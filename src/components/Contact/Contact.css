@@ -9,12 +9,12 @@ body {
     color: #333;
     transition: background-image 1s ease;
 }
-.contact{
+/* .contact{
     background-image: url("../../assets/ContactBg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
+} */
 
 header {
     padding: 20px;

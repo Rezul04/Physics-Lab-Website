@@ -48,6 +48,7 @@ body {
 .quick-links li a {
     text-decoration: none;
     color: white;
+    font-size: 1.4rem;
 }
 
 .map-container {
@@ -72,7 +73,7 @@ body {
         text-align: center;
     }
     .quick-links{
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
         width: 100%;
         flex-wrap: wrap;

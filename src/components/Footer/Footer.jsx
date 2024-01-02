@@ -13,12 +13,13 @@ const Footer = () => {
             <h4 className="footertext text-center">&copy; Physics Department DTU </h4>
             <div className="column-heading text-center">Quick Links</div>
             <ul className="quick-links d-flex justify-content-around">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Research</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">People</a></li>
-                    <li><a href="#">Alumni</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/" className='mx-3'>Home</a></li>
+                    <li><a href="/news" className='mx-3'>News</a></li>
+                    <li><a href="/research" className='mx-3'>Research</a></li>
+                    <li><a href="/publications" className='mx-3'>Publications</a></li>
+                    <li><a href="/team" className='mx-3'>Team</a></li>
+                    <li><a href="/alumni" className='mx-3'>Alumni</a></li>
+                    <li><a href="contact" className='mx-3'>Contact</a></li>
                 </ul>
             </div>
             {/* <div className="column">
