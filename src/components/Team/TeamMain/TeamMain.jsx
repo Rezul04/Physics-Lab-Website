@@ -1,11 +1,13 @@
 import React from 'react'
 import './teamMain.css'
+// import image from '../../../assets/'
+
 
 const TeamMain = () => {
   return (
     <div className='teamMain'>
      <div className="left">
-        <img src="src/assets/HomeHero.jpg" alt="image"/>
+       <img src="/src/components/Team/TeamMain/HomeHero.jpg" className='' alt="" />
      </div>
      <div className="right">
         <h3>Our HOD</h3>
