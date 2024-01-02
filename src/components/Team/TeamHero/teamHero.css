@@ -10,6 +10,7 @@ background: url('src/assets/team.png');
 background-position: center;
 background-size: contain;
 opacity: 0.5;
+margin-top: 5rem;
 
 }
 .teamHero>.heading{
