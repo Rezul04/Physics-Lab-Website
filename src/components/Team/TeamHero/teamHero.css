@@ -5,11 +5,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-background: url('src/assets/team.png');
+background: url('../../../assets/team.png');
 /* background-repeat: no-repeat; */
 background-position: center;
 background-size: contain;
 opacity: 0.5;
+margin-top: 5rem;
 
 }
 .teamHero>.heading{
