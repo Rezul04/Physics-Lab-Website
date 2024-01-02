@@ -1,6 +1,10 @@
 .Highlights{
     width:70%;
     margin: 40px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin: 2rem auto;
 }
 .item{
     border-radius: 50%;
@@ -22,6 +26,7 @@
 }
 @media screen and (max-width:800px) {
     .Highlights{
-        display: none;
+        display:none;
+        
     }
 }

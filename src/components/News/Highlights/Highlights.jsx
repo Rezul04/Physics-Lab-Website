@@ -3,7 +3,7 @@ import './Highlights.css';
 
 export const Highlights = () => {
   return (
-    <div className="Highlights mx-auto d-flex justify-content-around align-items-center">
+    <div className="Highlights">
         <div className="item">
             <h1>200+</h1>
             <h4>Awards</h4>
