@@ -20,7 +20,7 @@ line-height: 118%; /* 56.64px */
 }
 @media (max-width:400px){
     .heading{
-        font-size: 25px;
+        font-size: 19px;
 
     }
 }

@@ -9,15 +9,19 @@ export const Theme = (theme) => {
       <div className="themeBlock">
         <div className="left">
           <div className="themeBox">
+
             <div className="title1">
               Theme title
             </div>
+
             <div className="desc">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nesciunt error illo voluptatibus officiis consequuntur aperiam debitis voluptatum, illum asperiores repudiandae nobis et voluptate.
             </div>
+
             <div className="learnMore">
             Learn More
             </div>
+            
           </div>
         </div>
 
