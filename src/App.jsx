@@ -22,7 +22,6 @@ function App() {
           <Route exact path='/team' element={<Team/>}/>
           <Route exact path='/research' element={<Research/>}/>
           <Route exact path='/publications' element={<Publications/>}/>
-          <Route exact path='/alumni' element={<Alumni/>}/>
           <Route exact path='/contact' element={<Contact/>}/>
 
         </Routes>

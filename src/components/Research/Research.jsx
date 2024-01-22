@@ -20,7 +20,7 @@ export const Research = () => {
 
     <ResearchHero/>
     <div className="heading">Research Themes</div>
-    <ResearchThemes researchThemes={researchThemes}/>
+    <ResearchThemes/>
     </div>
 
     </>

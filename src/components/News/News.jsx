@@ -11,7 +11,7 @@ export const News = () => {
     <div className='News'>
         <Hero/>
         <NewsCarousel/>
-        <Highlights/>
+        {/* <Highlights/> */}
         <Vacancies/>
     </div>
   )

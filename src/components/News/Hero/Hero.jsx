@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <div className="hero-image w-100">
     <div className="hero-text">
-      <h1>NEWS</h1>
+      <h1>EVENTS</h1>
     </div>
   </div>
   )

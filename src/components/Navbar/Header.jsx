@@ -46,11 +46,10 @@ export const Header = () => {
       </div>
       <div className="nav-links">
         <Link to='/'>Home</Link>
-        <Link to="/news">News</Link>
+        <Link to="/news">Events</Link>
         <Link to="/research">Research</Link>
         <Link to="/publications">Publications</Link>
         <Link to="/team">Team</Link>
-        <Link to="/alumni">Alumni</Link>
         <Link to="/contact">Contact</Link>
       </div>
 
@@ -68,7 +67,6 @@ export const Header = () => {
           <Link onClick={toggleMenu} to="/research" activeClass='active'  className="mobItem">Research</Link>
           <Link onClick={toggleMenu} to="/publications" activeClass='active'  className="mobItem">Publications</Link>
           <Link onClick={toggleMenu} to="/team" activeClass='active' className="mobItem">Team</Link>
-          <Link onClick={toggleMenu} to="/alumni" activeClass='active'  className="mobItem">Alumni</Link>
           <Link onClick={toggleMenu} to="/contact" activeClass='active'  className="mobItem">Contact</Link>
         </div>
       </div>
