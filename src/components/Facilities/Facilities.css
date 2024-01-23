@@ -1,0 +1,74 @@
+/* Facilities.css */
+
+.container {
+    width: 100%;
+    margin-top: 100px;
+  }
+  
+  .content-box {
+    border: 1px solid red;
+    display: flex;
+    margin-bottom: 1vw;
+    background-color: rgba(242, 242, 242, 0.7);
+    box-shadow: 1px 1px 15px rgb(255, 141, 141); 
+    transition: box-shadow 0.3s ease-in-out; 
+  }
+
+
+  .container h1{
+    font-size: 1.5vw;
+  }
+  
+  .content-box:hover {
+    box-shadow: 5px 5px 20px rgb(255, 0, 0); 
+  }
+  
+  .image-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .text-container {
+    flex: 2;
+  }
+  
+  .text-container p {
+    margin-top: 0;
+  }
+  
+  .text-container ul {
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .text-container li {
+    list-style: none;
+    margin-bottom: 2px;
+    font-size: 1vw;
+  }
+  
+  .text-container strong {
+    font-weight: bold;
+    font-size: 1.2vw;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .yearBox1 {
+    border: 1px solid peachpuff;
+    background-color: peachpuff;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 15px;
+    font-size: 2.8vw;
+  }
+  

@@ -35,20 +35,15 @@ body {
     height: auto;
 }
 
-.quick-links {
-    list-style: none;
-    padding: 0;
-    color: #11999E;
-}
-
 .quick-links li {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    list-style: none;
 }
 
 .quick-links li a {
     text-decoration: none;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 .map-container {
@@ -64,7 +59,7 @@ body {
     font-weight: bold;
     margin-bottom: 10px;
     color: #11999E;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 @media screen and (max-width: 600px) {
@@ -76,6 +71,7 @@ body {
         flex-direction: row;
         text-align: center;
         width: 100%;
+        row-gap:10px;
         flex-wrap: wrap;
     }
     .column {
@@ -85,4 +81,14 @@ body {
 }
 .footertext{
     color: white;
+}
+
+
+.footer-content2{
+    font-size: large;
+}
+
+.footer-links{
+    font-size: x-large;
+    font-weight: 400;
 }

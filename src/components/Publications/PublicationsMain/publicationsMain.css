@@ -51,9 +51,7 @@
   z-index: 1;
   transition: 0.5s;
 }
-.list ul li:hover span {
-/*   color: #111; */
-}
+
 .list ul li:before {
   content: "";
   position: absolute;
@@ -130,3 +128,52 @@ transition-duration: 300ms;
     margin-left:-9rem;
   }
 }
+
+.publication_body{
+  overflow-x: auto;
+  margin: 20px;
+}
+.research-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  /* margin: 25px; */
+}
+
+.research-table th, .research-table td {
+  border: 2px solid #000000;
+  padding: 10px;
+  text-align: left;
+  font-size: 2rem;
+  background-color: #f2f2f2;
+  
+}
+
+.research-table td {
+  background-color: rgba(242, 242, 242, 0.65); /* Adjust the alpha value (0.0 to 1.0) for desired opacity */
+}
+.publication-title a {
+  color: #000000; 
+  text-decoration: none; 
+}
+
+.publication-title {
+  font-weight: bold;
+  display: block;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+
+.yearBox1{
+   border: 1px;
+  background-color: peachpuff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 15px;
+  font-size: 4rem;
+}
+
+

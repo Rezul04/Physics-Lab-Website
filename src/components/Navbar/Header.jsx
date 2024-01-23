@@ -50,7 +50,7 @@ export const Header = () => {
         <Link to="/research">Research</Link>
         <Link to="/publications">Publications</Link>
         <Link to="/team">Team</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/Facilities">Facilities</Link>
       </div>
 
 
@@ -67,7 +67,7 @@ export const Header = () => {
           <Link onClick={toggleMenu} to="/research" activeClass='active'  className="mobItem">Research</Link>
           <Link onClick={toggleMenu} to="/publications" activeClass='active'  className="mobItem">Publications</Link>
           <Link onClick={toggleMenu} to="/team" activeClass='active' className="mobItem">Team</Link>
-          <Link onClick={toggleMenu} to="/contact" activeClass='active'  className="mobItem">Contact</Link>
+          <Link onClick={toggleMenu} to="/Facilities" activeClass='active'  className="mobItem">Facilities</Link>
         </div>
       </div>
 

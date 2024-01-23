@@ -8,7 +8,7 @@ import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import { Research } from './components/Research/Research';
 import { Team } from './components/Team/Team';
 import { Alumni } from './components/Alumni/Alumni';
-import { Contact } from './components/Contact/Contact';
+import { Facilities } from './components/Facilities/Facilities';
 import  Footer from './components/Footer/Footer';
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
           <Route exact path='/team' element={<Team/>}/>
           <Route exact path='/research' element={<Research/>}/>
           <Route exact path='/publications' element={<Publications/>}/>
-          <Route exact path='/contact' element={<Contact/>}/>
+          <Route exact path='/Facilities' element={<Facilities/>}/>
 
         </Routes>
         <Footer />
