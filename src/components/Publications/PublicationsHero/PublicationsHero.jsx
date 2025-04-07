@@ -4,7 +4,6 @@ import './publicationsHero.css'
 const PublicationsHero = () => {
   return (
     <div>
-      {/* This is hero section of publications */}
       <div className="publicationsHero">
         <div className="heroContent">
             Our Publications
