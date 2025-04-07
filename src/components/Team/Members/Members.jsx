@@ -1,88 +1,66 @@
-import React from 'react'
-import './Members.css'
-import sampleMember from '../../../assets/sampleAlumni.png'
+import React from 'react';
+import './Members.css';
+import sampleMember from '../../../assets/sampleAlumni.png';
+
+const membersData = [
+  {
+    name: "James Watt",
+    researchArea: "Steam engines, Light bulb, Electromagnetics",
+    image: sampleMember
+  },
+  {
+    name: "James Watt",
+    researchArea: "Steam engines, Light bulb",
+    image: sampleMember
+  },
+  {
+    name: "James Watt",
+    researchArea: "Steam engines, Light bulb",
+    image: sampleMember
+  },
+  {
+    name: "James Watt",
+    researchArea: "Steam engines, Light bulb",
+    image: sampleMember
+  },
+  {
+    name: "James Watt",
+    researchArea: "Steam engines, Light bulb",
+    image: sampleMember
+  },
+  {
+    name: "James Watt",
+    researchArea: "Steam engines, Light bulb",
+    image: sampleMember
+  },
+  {
+    name: "James Watt",
+    researchArea: "Steam engines, Light bulb",
+    image: sampleMember
+  }
+];
+
+const MemberCard = ({ name, researchArea, image }) => (
+  <div className="memberCard">
+    <div 
+      className="memberImage" 
+      style={{ backgroundImage: `url("${image}")`, backgroundSize: 'cover' }}
+    />
+    <div className="memberDesc">
+      <div className="memberName">{name}</div>
+      <div className="researchArea">
+        <b>Research Area:</b> {researchArea}
+      </div>
+    </div>
+  </div>
+);
 
 export const Members = () => {
   return (
     <div className="memberContainer">
-        <div className="memberCard">
-            <div className="memberImage" style={{ backgroundImage: `url("${sampleMember}")`, backgroundSize: 'cover', }}></div>
-            <div className="memberDesc">
-                <div id="MemberName">
-                    James watt
-                </div>
-                <div id="researchArea">
-                    <b>Research Area:</b> Steam engines,Light bulb,electromagnetics
-                </div>
-            </div>
-        </div>
-       
-        <div className="memberCard">
-            <div className="memberImage" style={{ backgroundImage: `url("${sampleMember}")`, backgroundSize: 'cover', }}></div>
-            <div className="memberDesc">
-                <div id="MemberName">
-                    James watt
-                </div>
-                <div id="researchArea">
-                    <b>Research Area:</b> Steam engines,Light bulb
-                </div>
-            </div>
-        </div>
-        <div className="memberCard">
-            <div className="memberImage" style={{ backgroundImage: `url("${sampleMember}")`, backgroundSize: 'cover', }}></div>
-            <div className="memberDesc">
-                <div id="MemberName">
-                    James watt
-                </div>
-                <div id="researchArea">
-                    <b>Research Area:</b> Steam engines,Light bulb
-                </div>
-            </div>
-        </div>
-        <div className="memberCard">
-            <div className="memberImage" style={{ backgroundImage: `url("${sampleMember}")`, backgroundSize: 'cover', }}></div>
-            <div className="memberDesc">
-                <div id="MemberName">
-                    James watt
-                </div>
-                <div id="researchArea">
-                    <b>Research Area:</b> Steam engines,Light bulb
-                </div>
-            </div>
-        </div>
-        <div className="memberCard">
-            <div className="memberImage" style={{ backgroundImage: `url("${sampleMember}")`, backgroundSize: 'cover', }}></div>
-            <div className="memberDesc">
-                <div id="MemberName">
-                    James watt
-                </div>
-                <div id="researchArea">
-                    <b>Research Area:</b> Steam engines,Light bulb
-                </div>
-            </div>
-        </div>
-        <div className="memberCard">
-            <div className="memberImage" style={{ backgroundImage: `url("${sampleMember}")`, backgroundSize: 'cover', }}></div>
-            <div className="memberDesc">
-                <div id="MemberName">
-                    James watt
-                </div>
-                <div id="researchArea">
-                    <b>Research Area:</b> Steam engines,Light bulb
-                </div>
-            </div>
-        </div>
-        <div className="memberCard">
-            <div className="memberImage" style={{ backgroundImage: `url("${sampleMember}")`, backgroundSize: 'cover', }}></div>
-            <div className="memberDesc">
-                <div id="MemberName">
-                    James watt
-                </div>
-                <div id="researchArea">
-                    <b>Research Area:</b> Steam engines,Light bulb
-                </div>
-            </div>
-        </div>
+      {membersData.map((member, index) => (
+        <MemberCard key={index} {...member} />
+      ))}
     </div>
-  )
-}
+  );
+};

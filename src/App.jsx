@@ -7,7 +7,6 @@ import Publications from './components/Publications/Publications';
 import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import { Research } from './components/Research/Research';
 import { Team } from './components/Team/Team';
-import { Alumni } from './components/Alumni/Alumni';
 import { Facilities } from './components/Facilities/Facilities';
 import  Footer from './components/Footer/Footer';
 function App() {
