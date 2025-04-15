@@ -1,74 +1,148 @@
-/* Facilities.css */
-
 .container {
-    width: 100%;
-    margin-top: 100px;
-  }
-  
-  .content-box {
-    border: 1px solid red;
-    display: flex;
-    margin-bottom: 1vw;
-    background-color: rgba(242, 242, 242, 0.7);
-    box-shadow: 1px 1px 15px rgb(255, 141, 141); 
-    transition: box-shadow 0.3s ease-in-out; 
+  width: 100%;
+  margin-top: 100px;
+  padding: 0 1rem;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Box Styling */
+.content-box {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  background-color: rgba(242, 242, 242, 0.7);
+  box-shadow: 1px 1px 15px rgb(255, 141, 141);
+  transition: box-shadow 0.3s ease-in-out;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.content-box:hover {
+  box-shadow: 5px 5px 20px rgb(255, 0, 0);
+}
+
+/* Image Section */
+.image-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Text Section */
+.text-container {
+  flex: 2;
+}
+
+.text-container p {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.text-container ul {
+  padding: 0;
+  margin: 10px 0;
+}
+
+.text-container li {
+  list-style: none;
+  margin-bottom: 6px;
+  font-size: 1.1rem;
+}
+
+.text-container strong {
+  font-weight: bold;
+  font-size: 1.4rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Heading Banner */
+.yearBox1 {
+  border: 1px solid peachpuff;
+  background-color: peachpuff;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 1.5rem;
+  font-size: 2rem;
+}
+
+/* 🔁 Responsive Styling */
+@media screen and (max-width: 1024px) {
+  .container h1 {
+    font-size: 2rem;
   }
 
-
-  .container h1{
-    font-size: 1.5vw;
-  }
-  
-  .content-box:hover {
-    box-shadow: 5px 5px 20px rgb(255, 0, 0); 
-  }
-  
-  .image-container {
-    flex: 1;
-    margin-right: 20px;
-  }
-  
-  .image-container img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  .text-container {
-    flex: 2;
-  }
-  
-  .text-container p {
-    margin-top: 0;
-  }
-  
-  .text-container ul {
-    padding: 0;
-    margin: 10px 0;
-  }
-  
-  .text-container li {
-    list-style: none;
-    margin-bottom: 2px;
-    font-size: 1vw;
-  }
-  
-  .text-container strong {
-    font-weight: bold;
-    font-size: 1.2vw;
-    display: block;
-    margin-bottom: 10px;
-  }
-  
   .yearBox1 {
-    border: 1px solid peachpuff;
-    background-color: peachpuff;
-    margin-bottom: 2rem;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding-left: 15px;
-    font-size: 2.8vw;
+    font-size: 1.8rem;
   }
-  
+
+  .text-container li,
+  .text-container p {
+    font-size: 1rem;
+  }
+
+  .text-container strong {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-box {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .image-container {
+    margin: 0 0 1rem 0;
+  }
+
+  .yearBox1 {
+    font-size: 1.6rem;
+  }
+
+  .container h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin-top: 50px;
+  }
+
+  .content-box {
+    padding: 0.8rem;
+  }
+
+  .container h1 {
+    font-size: 1.5rem;
+  }
+
+  .yearBox1 {
+    font-size: 1.4rem;
+    padding: 0.8rem 1rem;
+  }
+
+  .text-container li,
+  .text-container p {
+    font-size: 0.95rem;
+  }
+
+  .text-container strong {
+    font-size: 1.1rem;
+  }
+}

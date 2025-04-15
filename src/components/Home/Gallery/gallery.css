@@ -72,3 +72,64 @@
 .carousel-container {
     margin-top: 20px;
 }
+@media (max-width: 1024px) {
+    .gallery-image {
+      height: 180px;
+    }
+  
+    .gallery-content {
+      font-size: 1em;
+    }
+  
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-content p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .gallery-image {
+      height: 160px;
+    }
+  
+    .cardHolder {
+      flex-direction: column;
+    }
+  
+    .homeMain {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .gallery-image {
+      height: 140px;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .quick-links {
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    .column {
+      padding: 10px;
+    }
+  
+    .hero-content h1 {
+      font-size: 1.5rem;
+    }
+  
+    .hero-content p {
+      font-size: 1rem;
+    }
+  }

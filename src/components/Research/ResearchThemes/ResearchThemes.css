@@ -1,100 +1,201 @@
-.rThemeMain{
-    width: 100%;
+.rMainContainer {
+  padding: 96px 72px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.ongoingResearchTable{
-    width:100%;
+
+.rMainContainer > .leftRH {
+  width: 50%;
 }
 
-.table-container {
+.rMainContainer > .rightRH {
+  width: 50%;
+  position: relative;
+}
+
+#currentTheme {
+  color: #004d6c;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 132%;
+}
+
+#initiatives {
+  color: #a6a6a6;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 154.5%;
+  width: 100%;
+  text-align: justify;
+}
+
+/* Circle Image */
+#themeCircle {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  display: block;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Rec Buttons */
+.rec {
+  position: absolute;
+  width: 180px;
+  padding: 8px 13px 10px;
+  border-radius: 8px 8px 0px 8px;
+  background: #c9dee5;
+  color: #004d6c;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.24px;
+  text-align: center;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+/* Button Positioning */
+#rec1 {
+  top: 5%;
+  left: 55%;
+}
+
+#rec2 {
+  top: 35%;
+  left: 5%;
+}
+
+#rec3 {
+  top: 65%;
+  right: 10%;
+}
+
+#rec4 {
+  top: 50%;
+  right: -5%;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 1050px) {
+  .rightRH {
+    display: none;
+    width: 0%;
+  }
+
+  .rMainContainer > .leftRH {
     width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    padding: 0px 100px;
-  }
-  .table-container table{
-    width:100%;
-    font-size: 1.6rem;
-    height: fit-content;
-
-  }
-  .tableTitle h2{
-   padding-bottom: 5px;
-   color: #004D6C;
-   font-size: 3rem;
-  }
-  
-  /* Table header (th) styling */
-  .table-container th {
-    background-color: #f2f2f2;
-    border: 1px solid #dddddd;
-    color: #004D6C;
-    padding: 8px;
-    text-align: left;
-  }
-  
-  /* Table row (tr) styling */
-  .table-container tr {
-    border: 1px solid #dddddd;
-    height: fit-content;
-  }
-  
-  /* Table cell (td) styling */
-  .table-container td {
-    border: 1px solid #dddddd;
-    padding: 0px 6px;
-    text-align: justify;
-  }
-  
-  /* Alternate row background color */
-  .table-container tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  /* Hover effect on rows */
-  .table-container tr:hover {
-    background-color: #e0e0e0;
   }
 
-  @media (max-width:800px){
-    .table-container {
-      margin-bottom: 10px;
-      margin-top: 10px;
-      padding: 0px 50px;
-    }
-    .table-container table{
-      font-size: 1.3rem;
-    }
-    .tableTitle h2{
-      padding-bottom: 5px;
-      font-size: 2rem;
-     }
+  #currentTheme {
+    text-align: center;
   }
-  @media (max-width:500px){
-    .table-container {
-      margin-bottom: 10px;
-      margin-top: 10px;
-      padding: 0px 10px;
-    }
-    .table-container table{
-      font-size: .8rem;
-    }
-    .tableTitle h2{
-      padding-bottom: 5px;
-      font-size: 1.4rem;
-     }
+
+  .rMainContainer {
+    padding: 65px 72px;
   }
-  @media (max-width:300px){
-    .table-container {
-      margin-bottom: 5px;
-      margin-top: 5px;
-      padding: 0px 10px;
-    }
-    .table-container table{
-      font-size: .7rem;
-    }
-    .tableTitle h2{
-      padding-bottom: 5px;
-      font-size: 1rem;
-     }
+
+  #initiatives {
+    font-size: 18px;
   }
+}
+
+@media (max-width: 700px) {
+  .rMainContainer {
+    padding: 50px 30px;
+  }
+
+  #initiatives {
+    font-size: 15px;
+  }
+
+  #currentTheme {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 550px) {
+  #initiatives {
+    font-size: 13px;
+  }
+
+  #currentTheme {
+    font-size: 22px;
+  }
+
+  #themeCircle {
+    max-width: 320px;
+  }
+
+  .rec {
+    font-size: 10px;
+    padding: 6px 10px;
+    width: 140px;
+  }
+
+  #rec1 {
+    top: 7%;
+    left: 48%;
+  }
+
+  #rec2 {
+    top: 30%;
+    left: 10%;
+  }
+
+  #rec3 {
+    top: 62%;
+    right: 5%;
+  }
+
+  #rec4 {
+    top: 45%;
+    right: -10%;
+  }
+}
+
+@media (max-width: 400px) {
+  .rMainContainer {
+    padding: 40px 20px;
+  }
+
+  #initiatives {
+    font-size: 11px;
+  }
+
+  #currentTheme {
+    font-size: 18px;
+  }
+
+  .rec {
+    font-size: 9px;
+    width: 120px;
+  }
+
+  #rec1 {
+    top: 10%;
+    left: 45%;
+  }
+
+  #rec2 {
+    top: 28%;
+    left: 8%;
+  }
+
+  #rec3 {
+    top: 58%;
+    right: 4%;
+  }
+
+  #rec4 {
+    top: 42%;
+    right: -12%;
+  }
+}
