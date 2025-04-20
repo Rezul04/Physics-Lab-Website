@@ -1,0 +1,124 @@
+{
+    "facilities": [
+      {
+        "title": "Centrifuge",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1n6P7rd6OgcQbC-_SdQceQWf0c09I-g52/view?usp=drive_link"
+      },
+      {
+        "title": "CVD",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1gPw14UOHAUx3pxTwJFviafuwG_goC5G6/view?usp=drive_link"
+      },
+      {
+        "title": "Decade Resistance Box",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/147hEQI2jcRdNoppQzdTPbT28cSinuxkk/view?usp=drive_link"
+      },
+      {
+        "title": "Digital Graphical Sampling Multimeter",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1jMoyoOfg-yUxyXw51zBQpagXJtabJkPs/view?usp=drive_link"
+      },
+      {
+        "title": "Electrodynamic Shaker",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/115iDgQJho2rO9kUfbZ3CVSYHHQf6Thml/view?usp=drive_link"
+      },
+      {
+        "title": "FTIR",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1fUMnXshzFQEyyHIBiWpsCwYjbTMgmN2A/view?usp=drive_link"
+      },
+      {
+        "title": "Fume Hood",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1B8zMGiDV5HlCGzMT0xpVlvsJ_GeBlMBF/view?usp=drive_link"
+      },
+      {
+        "title": "High Resistance Meter",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1O4wfBK_KoCLHJ6w8ZETdCZC-ZRW4MwK_/view?usp=drive_link"
+      },
+      {
+        "title": "Hot Air Oven",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1QGUh6nH0l835zy5M06bIRZQ35cyEZIhI/view?usp=drive_link"
+      },
+      {
+        "title": "Low-noise Current Preamplifier",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1nqEAPBWmtJoQdM0HgavBwNwtNJz1ik_O/view?usp=drive_link"
+      },
+      {
+        "title": "Magnetic Stirrer",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1IbiF6Thl1ckURDeeZYlShvtsm5GDjDAp/view?usp=drive_link"
+      },
+      {
+        "title": "Muffle Furnace",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1ZAeZqlKsq7eK26sA-fXh9S2u8IIKK79S/view?usp=drive_link"
+      },
+      {
+        "title": "Oscilliscope",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1e28Ft-M-nIM4PKTH1iZFFQlt03YsAPIw/view?usp=drive_link"
+      },
+      {
+        "title": "pH Meter",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1_1Lpfc2sqBWm3GwJNEl-qyvm8h0o6CY1/view?usp=drive_link"
+      },
+      {
+        "title": "Power Amplifier",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1EyZF5VbDw9ZjPuKjcrr-rUM3tgTU7tIx/view?usp=drive_link"
+      },
+      {
+        "title": "Source Measure Unit",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1iF7Pyd6dzAkgZzI-AMwyzgb2SWvuaUdB/view?usp=drive_link"
+      },
+      {
+        "title": "Thermal Vapour Deposition",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1HySSMj5YKkOOnVV69TxHU2rXhV0QRRRd/view?usp=drive_link"
+      },
+      {
+        "title": "Ultrasonic Cleaner",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1pZ1Lvkd0jHke7Y0vyENT8xJE-RUW3rxb/view?usp=drive_link"
+      },
+      {
+        "title": "Vaccum Oven",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1pe2uiBRNATPgr77SuFVL08oT8QF0ILOU/view?usp=drive_link"
+      },
+      {
+        "title": "Work Station",
+        "desc": "kcj",
+        // text for
+        "image": "https://drive.google.com/file/d/1YTL-MmC0WsS8bFg4OVgpwDpTzRPtTuM2/view?usp=drive_link"
+      }
+    ]
+}

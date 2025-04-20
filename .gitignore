@@ -23,4 +23,5 @@ helping_assets
 *.njsproj
 *.sln
 *.sw?
+test.json
 
