@@ -1,0 +1,559 @@
+{
+  "proceedings": [
+    {
+      "S.No": 1,
+      "authors": [
+        "Shilpa Rana",
+        "Himani Sharma",
+        "Renuka Bokolia",
+        "Kamlesh Bhatt",
+        "Rajendra Singh",
+        "Ram Charan Meena",
+        "Bharti Singh"
+      ],
+      "title": "PVDF/N-rGO nanofibers based sustainable triboelectric nanogenerator for self-powered wireless motion sensor",
+      "name_of_publication": "Carbon",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2024"
+    },
+    {
+      "S.No": 2,
+      "authors": ["Shilpa Rana", "Bharti Singh"],
+      "title": "rGO-Embedded Polymer Nanocomposite Layer for Improved Performance of Triboelectric Nanogenerator",
+      "name_of_publication": "Journal of Electronics Materials",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2024"
+    },
+    {
+      "S.No": 3,
+      "authors": [
+        "Ankita Banwal",
+        "Bhavya Kumar",
+        "Manoj Verma",
+        "Ankur Shandliya",
+        "Bharti Singh",
+        "Renuka Bokolia"
+      ],
+      "title": "Improved optical characteristics in BaBi2Nb2O9 ferroelectric ceramic infused with transition metal ion (W6+) and rare earth ions (Er3+/Yb3+)",
+      "name_of_publication": "",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2024"
+    },
+    {
+      "S.No": 4,
+      "authors": ["Km. Komal", "Mukhtiyar Singh", "Bharti Singh"],
+      "title": "A flexible memory device made of SnO2-hBN nanocomposite exhibits stable resistive switching application",
+      "name_of_publication": "Journal of Materials Science",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2024"
+    },
+    {
+      "S.No": 5,
+      "authors": ["Kanika Sharma", "Nitin K. Puri", "Bharti Singh"],
+      "title": "Fabrication of rGO-decorated hBNNS hybrid nanocomposite via organic-inorganic interfacial chemistry for enhanced electrocatalytic detection of carcinoembryonic antigen",
+      "name_of_publication": "Analytical and Bioanalytical Chemistry",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2024"
+    },
+    {
+      "S.No": 6,
+      "authors": ["Km. Komal", "Mukhtiyar Singh", "Bharti Singh"],
+      "title": "Effect of rGO weight percentage on structural, optical, and electrical properties of rGO-SnO2 nanocomposite for resistive memory device applications",
+      "name_of_publication": "Materials Science and Engineering B",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2024"
+    },
+    {
+      "S.No": 7,
+      "authors": [
+        "Ankita Banwal",
+        "Manoj Verma",
+        "Bharti Singh",
+        "Renuka Bokolia"
+      ],
+      "title": "Temperature stability and improved energy storage efficiency of BaBi2Nb2O9: Er/Yb relaxor ferroelectric ceramic under moderate electric fields",
+      "name_of_publication": "Applied Physics A",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2024"
+    },
+    {
+      "S.No": 8,
+      "authors": [
+        "Vishal Singh",
+        "Shilpa Rana",
+        "Renuka Bokolia",
+        "Amrish K. Panwar",
+        "Ramcharan Meena",
+        "Bharti Singh"
+      ],
+      "title": "Electrospun PVDF-MoSe2 Nanofibers based Hybrid Triboelectric Nanogenerator for Self-Powered Water Splitting System",
+      "name_of_publication": "Journal of Alloys and Compounds",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2024"
+    },
+    {
+      "S.No": 9,
+      "authors": ["Km. Komal", "Mukhtiyar Singh", "Bharti Singh"],
+      "title": "Flexible SnO2–MoS2 based memristive device exhibiting stable and enhanced memory phenomenon",
+      "name_of_publication": "Journal of Physics D: Applied Physics",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2024"
+    },
+    {
+      "S.No": 10,
+      "authors": ["Kanika Sharma", "Nitin Puri", "Bharti Singh"],
+      "title": "An efficient electrochemical nano-biosensor based on hydrothermally engineered ultrathin nanostructures of hexagonal boron nitride nanosheets for label-free detection of carcinoembryonic antigen",
+      "name_of_publication": "Applied Nanoscience",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2024"
+    },
+    {
+      "S.No": 11,
+      "authors": ["Shilpa Rana", "Bharti Singh"],
+      "title": "Polymer nanocomposite film based piezoelectric nanogenerator for biomechanical energy harvesting and motion monitoring",
+      "name_of_publication": "Journal of Materials Science: Materials in Electronics",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2023"
+    },
+    {
+      "S.No": 12,
+      "authors": ["Vishal Singh", "Bharti Singh"],
+      "title": "PDMS/PVDF- MoS2 based flexible triboelectric nanogenerator for mechanical energy harvesting",
+      "name_of_publication": "Polymer",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2023"
+    },
+    {
+      "S.No": 13,
+      "authors": ["Km. Komal", "Mukhtiyar Singh", "Bharti Singh"],
+      "title": "One step hydrothermal synthesis of MoS2-SnO2 nanocomposite for resistive switching memory application",
+      "name_of_publication": "Journal of Materials Science: Materials in Electronics",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2023"
+    },
+    {
+      "S.No": 14,
+      "authors": [
+        "Abhinav Bhatt",
+        "Vishal Singh",
+        "Priyanka Bamola",
+        "Deepali Aswal",
+        "Saurabh Rawat",
+        "Shilpa Rana",
+        "Charu Dwivedi",
+        "Bharti Singh",
+        "Himani Sharma"
+      ],
+      "title": "Enhanced piezoelectric response using TiO2/MoS2 heterostructure nanofillers in PVDF based nanogenerators",
+      "name_of_publication": "Journal of Alloys and Compounds",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2023"
+    },
+    {
+      "S.No": 15,
+      "authors": [
+        "Marie-Luise Braatz",
+        "Nils-Eike Weber",
+        "Bharti Singh",
+        "Klaus Mullen",
+        "Xinliang Feng",
+        "Mathias Kläui",
+        "Martin Gradhand"
+      ],
+      "title": "Functionalized graphene characterized via Raman spectroscopy and magneto-transport measurements",
+      "name_of_publication": "Journal of Applied Physics",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2023"
+    },
+    {
+      "S.No": 16,
+      "authors": ["Vishal Singh", "Bharti Singh"],
+      "title": "MoS2-PVDF/PDMS Based Flexible Hybrid Piezo-Triboelectric Nanogenerator for Harvesting Mechanical Energy",
+      "name_of_publication": "Journal of Alloys and Compounds",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2023"
+    },
+    {
+      "S.No": 17,
+      "authors": ["Shilpa Rana", "Vishal Singh", "Bharti Singh"],
+      "title": "Tailoring the Output Performance of PVDF-Based Piezo–Tribo Hybridized Nanogenerators via B, N-Codoped Reduced Graphene Oxide",
+      "name_of_publication": "ACS Applied Electronics Materials",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2023"
+    },
+    {
+      "S.No": 18,
+      "authors": [
+        "Km. Komal",
+        "Govind Gupta",
+        "Mukhtiyar Singh",
+        "Bharti Singh"
+      ],
+      "title": "Improved resistive switching of RGO and SnO2 based resistive memory device for non-volatile memory application",
+      "name_of_publication": "Journal of Alloys and Compounds",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2023"
+    },
+    {
+      "S.No": 19,
+      "authors": [
+        "Vishal Singh",
+        "Deshraj Meena",
+        "Himani Sharma",
+        "Ashutosh Trivedi",
+        "Bharti Singh"
+      ],
+      "title": "Investigating the role of chalcogen atom in the piezoelectric performance of PVDF/TMDCs based flexible nanogenerator",
+      "name_of_publication": "Energy",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2022"
+    },
+    {
+      "S.No": 20,
+      "authors": ["Shilpa Rana", "Vishal Singh", "Bharti Singh"],
+      "title": "Recent trends in 2D materials and their polymer composites for effectively harnessing mechanical energy",
+      "name_of_publication": "iScience",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2022"
+    },
+    {
+      "S.No": 21,
+      "authors": ["Bharti Singh", "Ashutosh Trivedi"],
+      "title": "Emerging strategies for energy harvesting using flexible piezoelectric nanogenerators: materials, structures, and device designs",
+      "name_of_publication": "Nanoscale Advances",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2022"
+    },
+    {
+      "S.No": 22,
+      "authors": ["Vishal Singh", "Shilpa Rana", "Bharti Singh"],
+      "title": "Flexible piezoelectric nanogenerators based on polymer composite films: from materials to devices",
+      "name_of_publication": "Journal of Materials Chemistry C",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2022"
+    },
+    {
+      "S.No": 23,
+      "authors": [
+        "Ankur Shandilya",
+        "Manoj Verma",
+        "Bharti Singh",
+        "Renuka Bokolia"
+      ],
+      "title": "Tailoring the properties of BaBi2Nb2O9 ceramics by Ni2+ and Co2+ co-doping for energy storage applications",
+      "name_of_publication": "Materials Chemistry and Physics",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2022"
+    },
+    {
+      "S.No": 24,
+      "authors": ["Vishal Singh", "Shilpa Rana", "Bharti Singh"],
+      "title": "Advances in piezoelectric polymer nanogenerators for self-powered wearable devices: materials, design, and applications",
+      "name_of_publication": "Nano Energy",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2021"
+    },
+    {
+      "S.No": 25,
+      "authors": [
+        "Himani Sharma",
+        "Rajendra Singh",
+        "Ram Charan Meena",
+        "Bharti Singh"
+      ],
+      "title": "Recent developments in lead-free piezoelectric materials for energy harvesting applications",
+      "name_of_publication": "Ceramics International",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2021"
+    },
+    {
+      "S.No": 26,
+      "authors": ["Shilpa Rana", "Vishal Singh", "Bharti Singh"],
+      "title": "A review on recent advances in piezoelectric nanogenerators for energy harvesting applications",
+      "name_of_publication": "Energy Reports",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2021"
+    },
+    {
+      "S.No": 27,
+      "authors": [
+        "Ankur Shandilya",
+        "Manoj Verma",
+        "Bharti Singh",
+        "Renuka Bokolia"
+      ],
+      "title": "Structural, dielectric, and ferroelectric properties of Co2+-substituted BaBi2Nb2O9 ceramics",
+      "name_of_publication": "Journal of Materials Science: Materials in Electronics",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2021"
+    },
+    {
+      "S.No": 28,
+      "authors": ["Bharti Singh", "Ashutosh Trivedi"],
+      "title": "Recent trends in flexible piezoelectric nanogenerators: materials, structures, and applications",
+      "name_of_publication": "ACS Applied Nano Materials",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2021"
+    },
+    {
+      "S.No": 29,
+      "authors": ["Shilpa Rana", "Vishal Singh", "Bharti Singh"],
+      "title": "Flexible triboelectric nanogenerators for self-powered wearable and biomedical applications",
+      "name_of_publication": "Journal of Physics D: Applied Physics",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2020"
+    },
+    {
+      "S.No": 30,
+      "authors": [
+        "Ankur Shandilya",
+        "Manoj Verma",
+        "Bharti Singh",
+        "Renuka Bokolia"
+      ],
+      "title": "Enhanced dielectric and ferroelectric properties of BaBi2Nb2O9 ceramics modified with Ni2+ doping",
+      "name_of_publication": "Ceramics International",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2020"
+    },
+    {
+      "S.No": 31,
+      "authors": ["Bharti Singh", "Ashutosh Trivedi"],
+      "title": "Emerging materials for flexible and wearable piezoelectric nanogenerators: a review",
+      "name_of_publication": "Advanced Materials Letters",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2020"
+    },
+    {
+      "S.No": 32,
+      "authors": ["Shilpa Rana", "Vishal Singh", "Bharti Singh"],
+      "title": "Recent advances in 2D materials-based piezoelectric nanogenerators for energy harvesting applications",
+      "name_of_publication": "Journal of Alloys and Compounds",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2020"
+    },
+    {
+      "S.No": 33,
+      "authors": ["Bharti Singh", "Ashutosh Trivedi"],
+      "title": "Flexible piezoelectric nanogenerators based on polymer composites: fundamentals and applications",
+      "name_of_publication": "iScience",
+      "type": "Journal",
+      "volume": "",
+      "page": "",
+      "year": "2020"
+    },
+    {
+      "S.No": 34,
+      "authors": ["Harshvardhan", "Palkin Yadav", "Bharti Singh"],
+      "title": "Systematic investigation of the effect of SnS2 nanofiller content on the piezoelectric performance of the PVDF-TrFE-based nanogenerator",
+      "name_of_publication": "Materials Today Proceedings",
+      "type": "Conference",
+      "volume": "",
+      "page": "",
+      "year": "2023"
+    },
+    {
+      "S.No": 35,
+      "authors": ["Gaurang Gautam", "Mohit Kumar", "Bharti Singh"],
+      "title": "High-performance piezoelectric energy harvesting based on PVDF-SnS2 nanocomposite",
+      "name_of_publication": "Materials Today Proceedings",
+      "type": "Conference",
+      "volume": "62",
+      "page": "3239-3243",
+      "year": "2022"
+    },
+    {
+      "S.No": 36,
+      "authors": ["Gyanendra K. Prajapati", "Rishabh Katla", "Bharti Singh"],
+      "title": "Effect of variation of MoS2 concentration on the piezoelectric performance of PVDF-MoS2 based flexible nanogenerator",
+      "name_of_publication": "Materials Today Proceedings",
+      "type": "Conference",
+      "volume": "",
+      "page": "",
+      "year": "2021"
+    },
+    {
+      "S.No": 37,
+      "authors": ["Ajay Peri", "Sai Krishnan Madhvan", "Bharti Singh"],
+      "title": "Investigation of the enhancement in the β-phase of PVDF as a function of MoSe2 concentration and its effect on the piezoelectric performance of the nanogenerator",
+      "name_of_publication": "Materials Today Proceedings",
+      "type": "Conference",
+      "volume": "",
+      "page": "",
+      "year": "2021"
+    },
+    {
+      "S.No": 38,
+      "authors": ["Vishal Singh", "Bharti Singh"],
+      "title": "Fabrication of PVDF-transition metal dichalcogenides based flexible piezoelectric nanogenerator for energy harvesting applications",
+      "name_of_publication": "Materials Today Proceedings",
+      "type": "Conference",
+      "volume": "28",
+      "page": "282-285",
+      "year": "2020"
+    },
+    {
+      "S.No": 39,
+      "authors": ["Km. Komal", "Mukhtiyar Singh", "Bharti Singh"],
+      "title": "Study of a non-volatile memory based on reduced graphene oxide and tin-oxide nanocomposite",
+      "name_of_publication": "International Conference on Atomic, Molecular, Optical & Nano Physics with Application",
+      "type": "Conference",
+      "volume": "",
+      "page": "",
+      "year": "-"
+    },
+    {
+      "S.No": 40,
+      "authors": [
+        "Mohammad Imran",
+        "Nahid Chaudhary",
+        "Aurangzeb Khurram Hafiz",
+        "Bharti Singh",
+        "Manika Khanuja"
+      ],
+      "title": "CVD synthesis and characterization of ultrathin MoS2 film",
+      "name_of_publication": "AIP Conference Proceedings",
+      "type": "Conference",
+      "volume": "2276",
+      "page": "20044",
+      "year": "2020"
+    },
+    {
+      "S.No": 41,
+      "authors": ["Kanika Sharma", "Nitin Puri", "Bharti Singh"],
+      "title": "Hexagonal boron nitride in sensing and biosensing applications",
+      "name_of_publication": "Elsevier",
+      "type": "Book chapters",
+      "volume": "",
+      "page": "",
+      "year": "2024"
+    },
+    {
+      "S.No": 42,
+      "authors": [
+        "Vishal Singh",
+        "Shilpa Rana",
+        "Himani Sharma",
+        "Bharti Singh"
+      ],
+      "title": "Fluoropolymer Nanocomposites for Piezoelectric Energy Harvesting Applications",
+      "name_of_publication": "Elsevier",
+      "type": "Book chapters",
+      "volume": "",
+      "page": "",
+      "year": "2023"
+    },
+    {
+      "S.No": 43,
+      "authors": [
+        "Vishal Singh",
+        "Ina Rayal",
+        "Priyanka",
+        "Himani Sharma",
+        "Charu Dwivedi",
+        "Bharti Singh"
+      ],
+      "title": "Solar radiation and light materials interaction",
+      "name_of_publication": "Elsevier",
+      "type": "Book chapters",
+      "volume": "",
+      "page": "",
+      "year": "2020"
+    },
+    {
+      "S.No": 44,
+      "authors": [
+        "Charu Dwivedi",
+        "Priyanka Bamola",
+        "Bharti Singh",
+        "Himani Sharma"
+      ],
+      "title": "Infrared radiation and materials interaction: Active, passive, transparent, and opaque coatings",
+      "name_of_publication": "Elsevier",
+      "type": "Book chapters",
+      "volume": "",
+      "page": "",
+      "year": "2020"
+    },
+    {
+      "S.No": 45,
+      "authors": [
+        "Priyanka Bamola",
+        "Shilpa Rana",
+        "Bharti Singh",
+        "Charu Dwivedi",
+        "Himani Sharma"
+      ],
+      "title": "Nanostructured TiO2 Ceramic Materials for Light and Mechanical Energy Harvesting Applications",
+      "name_of_publication": "CRC Press Taylor & Francis Group",
+      "type": "Book chapters",
+      "volume": "",
+      "page": "",
+      "year": "2020"
+    }
+  ]
+}
