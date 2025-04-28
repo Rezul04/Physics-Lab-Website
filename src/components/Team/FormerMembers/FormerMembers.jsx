@@ -9,8 +9,6 @@ const formerMembers = [
     passout: 'September 2022',
     image: sampleMember,
   },
-  // Duplicate the object or use real data if available
-  // Just cloning it 8 times for now
   {}, {}, {}, {}, {}, {}, {}
 ].map((member, i) => ({
   ...member,
@@ -27,6 +25,7 @@ export const FormerMembers = () => {
             style={{
               backgroundImage: `url("${member.image || sampleMember}")`,
               backgroundSize: 'cover',
+              backgroundPosition: 'center',
             }}
           ></div>
           <div className="memberDesc">

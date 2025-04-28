@@ -34,7 +34,7 @@ body {
 }
 .title :hover {
   text-decoration: none;
-  color: #e4f9f5;
+  color: #f7f9e4;
 }
 
 .nav-links a {
@@ -58,7 +58,7 @@ body {
 }
 .nav-links a:focus {
   transform: scale(1.15);
-  color: rgb(255, 255, 255);
+  color: #45eb09;
 }
 .hamburger {
   display: none;

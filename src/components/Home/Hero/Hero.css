@@ -1,14 +1,14 @@
 /* src/components/HeroSection.css */
 
 .hero-section {
-  background-image: url('../../../assets/HomeHero.jpg'); /* Adjust the path based on your project structure */
+  background-image: url('../../../assets/HomeHero.jpg');
   background-size: cover;
   background-position: center;
-  height: 400px; /* Set your preferred height */
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffffff; /* Text color */
+  color: #ffffff;
   position: relative;
   margin-top: 5rem;
 }
@@ -20,7 +20,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .hero-content {
@@ -32,15 +32,15 @@
 }
 
 .hero-content h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem; /* slightly bigger by default */
   margin-bottom: 10px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* New: better visibility */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .hero-content p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin: 0;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* New: better visibility */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 /* ======================= MEDIA QUERIES ======================= */
@@ -55,11 +55,11 @@
   }
 
   .hero-content h1 {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
 
   .hero-content p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -74,6 +74,14 @@
 
   .homeMain {
     flex-direction: column;
+  }
+
+  .hero-content h1 {
+    font-size: 2.6rem; /* slightly bigger for tablet */
+  }
+
+  .hero-content p {
+    font-size: 1.6rem;
   }
 }
 
@@ -98,12 +106,12 @@
     padding: 10px;
   }
 
-  /* UPDATED: Increase hero section text size for mobile */
+  /* ✅ UPDATED: Increase text size in mobile */
   .hero-content h1 {
-    font-size: 2.2rem;
+    font-size: 2.8rem; /* bigger and more prominent */
   }
 
   .hero-content p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 }

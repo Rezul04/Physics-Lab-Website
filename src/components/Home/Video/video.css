@@ -1,30 +1,57 @@
-.homeVideo{
-    height: 50rem;
-    /* border: 1px solid black; */
-    padding:1rem;
+.homeVideo {
+    padding: 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
 }
-.homeVideo>.heading>h3{
+
+.homeVideo > .heading > h3 {
     text-align: center;
     font-size: 3rem;
-   
+    margin-bottom: 1.5rem;
 }
-.homeVideo>.heading{
+
+.homeVideo > .heading {
     background: none;
 }
-.videoHolder{
-    height:80%;
-    border:1px solid black;
-    width:80%;
+
+.videoHolder {
+    width: 70%; /* 🚀 Default desktop size slightly smaller */
+    aspect-ratio: 16/9;
+    position: relative;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
-.videoHolder>iframe{
-    height:100%;
+
+.videoHolder > iframe {
+    position: absolute;
     width: 100%;
+    height: 100%;
+    border: 0;
 }
-.videoHolder>video{
-    height:100%;
-    width: 100%;
+
+/* 🛠️ Responsive Fixes */
+@media (max-width: 768px) {
+    .homeVideo > .heading > h3 {
+        font-size: 2rem;
+    }
+
+    .videoHolder {
+        width: 65%; /* 📏 Now even smaller on tablet */
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 480px) {
+    .homeVideo > .heading > h3 {
+        font-size: 1.5rem;
+    }
+
+    .videoHolder {
+        width: 75%; /* 📏 Smaller width */
+        max-width: 300px; /* 📏 Much tighter limit on mobile */
+    }
 }
