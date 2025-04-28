@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ResearchThemes.css';
 
 const researchData = [
@@ -22,22 +22,26 @@ const researchData = [
     fundingAgency: "DTU",
     startYear: 2023,
     endYear: 2024
+  },
+  {
+    link: "#",
+    title: "AI-Driven Biosensors for Real-Time Diagnostics",
+    fundingAgency: "IIT Madras",
+    startYear: 2024,
+    endYear: 2026
   }
 ];
 
-const ResearchTable = ({ title, data }) => (
+const ResearchTable = ({ data }) => (
   <div className="table-container">
-    <div className="tableTitle">
-      <h2>{title}</h2>
-    </div>
     <table>
       <thead>
         <tr>
           <th>Sno.</th>
-          <th>Title of the project</th>
+          <th>Title of the Project</th>
           <th>Funding Agency</th>
           <th>Duration</th>
-          <th>Read more</th>
+          <th>Read More</th>
         </tr>
       </thead>
       <tbody>
@@ -56,14 +60,46 @@ const ResearchTable = ({ title, data }) => (
 );
 
 export const ResearchThemes = () => {
-  // Separate or duplicate data if needed
-  const OngoingResearchData = researchData;
-  const CompletedResearchData = researchData; // Replace with actual completed research if available
+  const [activeTab, setActiveTab] = useState('ongoing');
+
+  const currentYear = new Date().getFullYear();
+  const OngoingResearchData = researchData.filter(item => item.endYear >= currentYear);
+  const CompletedResearchData = researchData.filter(item => item.endYear < currentYear);
 
   return (
-    <>
-      <ResearchTable title="Ongoing" data={OngoingResearchData} />
-      <ResearchTable title="Completed" data={CompletedResearchData} />
-    </>
+    <div className="research-container">
+      <h2 id="currentTheme">Research Themes</h2>
+
+      <div className="tabs">
+        <button
+          className={activeTab === 'ongoing' ? 'active' : ''}
+          onClick={() => setActiveTab('ongoing')}
+        >
+          Ongoing
+        </button>
+        <button
+          className={activeTab === 'completed' ? 'active' : ''}
+          onClick={() => setActiveTab('completed')}
+        >
+          Completed
+        </button>
+      </div>
+
+      <div className="tab-content">
+        {activeTab === 'ongoing' ? (
+          OngoingResearchData.length > 0 ? (
+            <ResearchTable data={OngoingResearchData} />
+          ) : (
+            <p className="no-data">No ongoing research projects.</p>
+          )
+        ) : (
+          CompletedResearchData.length > 0 ? (
+            <ResearchTable data={CompletedResearchData} />
+          ) : (
+            <p className="no-data">No completed research projects.</p>
+          )
+        )}
+      </div>
+    </div>
   );
 };

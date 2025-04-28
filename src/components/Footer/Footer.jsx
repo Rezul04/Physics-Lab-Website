@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="footer-content">
         
         <div className="column">
-          <img src="http://intaffairs.dtu.ac.in/dtu-logo.png" alt="DTU Logo" />
+          <img src="src/assets/dtu-logo.png" alt="DTU Logo" />
         </div>
 
         <div className="column">
