@@ -2,34 +2,35 @@ import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import './gallery.css';
+import images from "../../../../data/gallery.json"
 
 const Gallery = () => {
-  const images = [
-    {
-      label: "Description 1",
-      url: "https://images.pexels.com/photos/2167039/pexels-photo-2167039.jpeg",
-    },
-    {
-      label: "Description 2",
-      url: "https://images.pexels.com/photos/15076765/pexels-photo-15076765/free-photo-of-white-chinned-sapphire-perched-on-a-branch.jpeg",
-    },
-    {
-      label: "Description 3",
-      url: "https://images.pexels.com/photos/10360957/pexels-photo-10360957.jpeg",
-    },
-    {
-      label: "Description 4",
-      url: "https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg",
-    },
-    {
-      label: "Description 5",
-      url: "https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg",
-    },
-    {
-      label: "Description 6",
-      url: "https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg",
-    },
-  ];
+  // const images = [
+  //   {
+  //     label: "Description 1",
+  //     url: "https://images.pexels.com/photos/2167039/pexels-photo-2167039.jpeg",
+  //   },
+  //   {
+  //     label: "Description 2",
+  //     url: "https://images.pexels.com/photos/15076765/pexels-photo-15076765/free-photo-of-white-chinned-sapphire-perched-on-a-branch.jpeg",
+  //   },
+  //   {
+  //     label: "Description 3",
+  //     url: "https://images.pexels.com/photos/10360957/pexels-photo-10360957.jpeg",
+  //   },
+  //   {
+  //     label: "Description 4",
+  //     url: "https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg",
+  //   },
+  //   {
+  //     label: "Description 5",
+  //     url: "https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg",
+  //   },
+  //   {
+  //     label: "Description 6",
+  //     url: "https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg",
+  //   },
+  // ];
 
   const responsive = {
     desktop: {
@@ -55,7 +56,7 @@ const Gallery = () => {
       <Carousel
         swipeable={true}
         draggable={true}
-        showDots={true}
+        showDots={false}
         responsive={responsive}
         ssr={true}
         infinite={true}
@@ -68,10 +69,11 @@ const Gallery = () => {
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-40-px"
       >
-        {images.map((img, index) => (
+
+        {images.gallery.map((img, index) => (
           <div className="gallery-item" key={index}>
-            <img src={img.url} alt={`slide-${index}`} className="gallery-image" />
-            <p className="gallery-content">{img.label}</p>
+            <img src={img.images[0]} alt={`slide-${index}`} className="gallery-image" />
+            {/* <p className="gallery-content">{img.desc}</p> */}
           </div>
         ))}
       </Carousel>

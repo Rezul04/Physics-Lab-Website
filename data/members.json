@@ -1,0 +1,67 @@
+{
+    "members": [
+    {
+      "image_url": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865548/m-1_ocgpwq.jpg",
+      "name": "cdj",
+      "designation": "fkdj",
+      "reserach_area": "hkw",
+      "completed_at": "fhier",
+      "is_alumni":true,
+      "where_now": "wkdb"
+    },
+    {
+        "image_url": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865548/m-2_vzxchl.jpg",
+        "name": "cdj",
+        "designation": "fkdj",
+        "reserach_area": "hkw",
+        "completed_at": "fhier",
+        "is_alumni":true,
+        "where_now": "wkdb"
+      },
+      {
+        "image_url": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865547/m-5_ywnzc4.jpg",
+        "name": "cdj",
+        "designation": "fkdj",
+        "reserach_area": "hkw",
+        "completed_at": "fhier",
+        "is_alumni":true,
+        "where_now": "wkdb"
+      },
+      {
+        "image_url": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865547/m-3_dcrmle.jpg",
+        "name": "cdj",
+        "designation": "fkdj",
+        "reserach_area": "hkw",
+        "completed_at": "fhier",
+        "is_alumni":true,
+        "where_now": "wkdb"
+      },
+      {
+        "image_url": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865546/m-6_ulywkr.jpg",
+        "name": "cdj",
+        "designation": "fkdj",
+        "reserach_area": "hkw",
+        "completed_at": "fhier",
+        "is_alumni":true,
+        "where_now": "wkdb"
+      },
+      {
+        "image_url": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865546/m-7_sut9ni.jpg",
+        "name": "cdj",
+        "designation": "fkdj",
+        "reserach_area": "hkw",
+        "completed_at": "fhier",
+        "is_alumni":true,
+        "where_now": "wkdb"
+      },
+      {
+        "image_url": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865545/m-4_bvb4hv.jpg",
+        "name": "cdj",
+        "designation": "fkdj",
+        "reserach_area": "hkw",
+        "completed_at": "fhier",
+        "is_alumni":true,
+        "where_now": "wkdb"
+      }
+  ]
+}
