@@ -3,21 +3,6 @@ import './FormerMembers.css'
 import sampleMember from '../../../assets/sampleAlumni.png'
 import formerMembers from '../../../../data/members.json'
 
-// const formerMembers = [
-//   {
-//     name: 'James Watt',
-//     research: 'Steam engines, Light bulb, Electromagnetics',
-//     passout: 'September 2022',
-//     image: sampleMember,
-//   },
-//   // Duplicate the object or use real data if available
-//   // Just cloning it 8 times for now
-//   {}, {}, {}, {}, {}, {}, {}
-// ].map((member, i) => ({
-//   ...member,
-//   key: i,
-// }));
-
 export const FormerMembers = () => {
   return (
     <div className="memberContainer">
@@ -28,6 +13,7 @@ export const FormerMembers = () => {
             style={{
               backgroundImage: `url("${member.image_url || sampleMember}")`,
               backgroundSize: 'cover',
+              backgroundPosition: 'center',
             }}
           ></div>
           <div className="memberDesc">

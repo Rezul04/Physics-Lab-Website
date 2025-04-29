@@ -7,7 +7,7 @@ export const Research = () => {
     <>
     <div className="researchMain">
     <ResearchHero/>
-    <div className="heading">Research Themes</div>
+    
     <ResearchThemes/>
     </div>
     </>

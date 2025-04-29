@@ -2,6 +2,7 @@ import React from 'react';
 import './Facilities.css';
 import facilitiesData from '../../../data/facilities.json'
 
+
 // const facilitiesData = [
 //   {
 //     title: 'WITec Alpha 300R Deep UV Raman Microscopy (266nm)',
@@ -35,12 +36,14 @@ import facilitiesData from '../../../data/facilities.json'
 //   },
 // ];
 
+
 export const Facilities = () => {
   console.log(facilitiesData.facilities);
   
   return (
     <div className="container">
       <div className="yearBox1">Our Facilities</div>
+
 
       {facilitiesData.facilities.map((facility, index) => (
         <div key={index}>

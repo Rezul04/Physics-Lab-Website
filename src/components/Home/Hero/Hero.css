@@ -1,44 +1,117 @@
 /* src/components/HeroSection.css */
 
 .hero-section {
-    background-image: url('../../../assets/HomeHero.jpg'); /* Adjust the path based on your project structure */
-    background-size: cover;
-    background-position: center;
-    height: 400px; /* Set your preferred height */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff; /* Text color */
-    position: relative;
-    margin-top:5rem;
-    
-  }
-  .overlay {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
-  }
-  
-  .hero-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
+  background-image: url('../../../assets/HomeHero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  position: relative;
+  margin-top: 5rem;
+}
 
+.overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.hero-content h1 {
+  font-size: 2.8rem; /* slightly bigger by default */
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content p {
+  font-size: 1.7rem;
+  margin: 0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* ======================= MEDIA QUERIES ======================= */
+
+@media (max-width: 1024px) {
+  .gallery-image {
+    height: 180px;
   }
-  
+
+  .gallery-content {
+    font-size: 1em;
+  }
+
   .hero-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+    font-size: 2.4rem;
   }
-  
+
   .hero-content p {
-    font-size: 1.5rem;
-    margin: 0;
+    font-size: 1.4rem;
   }
-  
+}
+
+@media (max-width: 768px) {
+  .gallery-image {
+    height: 160px;
+  }
+
+  .cardHolder {
+    flex-direction: column;
+  }
+
+  .homeMain {
+    flex-direction: column;
+  }
+
+  .hero-content h1 {
+    font-size: 2.6rem; /* slightly bigger for tablet */
+  }
+
+  .hero-content p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .gallery-image {
+    height: 140px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .quick-links {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .column {
+    padding: 10px;
+  }
+
+  /* ✅ UPDATED: Increase text size in mobile */
+  .hero-content h1 {
+    font-size: 2.8rem; /* bigger and more prominent */
+  }
+
+  .hero-content p {
+    font-size: 1.8rem;
+  }
+}
