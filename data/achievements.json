@@ -2,11 +2,13 @@
     "achivements": [
     {
       "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745260197/ac2_oscwsp.jpg",
-      "text": ""
+      "heading": "",
+      "subheading":""
     },
     {
         "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745260197/ac3_luk9mn.jpg",
-        "text": ""
+        "heading": "",
+        "subheading":""
       }
   ]
 }

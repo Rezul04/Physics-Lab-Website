@@ -411,7 +411,7 @@
       "authors": ["Harshvardhan", "Palkin Yadav", "Bharti Singh"],
       "title": "Systematic investigation of the effect of SnS2 nanofiller content on the piezoelectric performance of the PVDF-TrFE-based nanogenerator",
       "name_of_publication": "Materials Today Proceedings",
-      "type": "Conference",
+      "type": "Conference Paper",
       "volume": "",
       "page": "",
       "year": "2023"
@@ -421,7 +421,7 @@
       "authors": ["Gaurang Gautam", "Mohit Kumar", "Bharti Singh"],
       "title": "High-performance piezoelectric energy harvesting based on PVDF-SnS2 nanocomposite",
       "name_of_publication": "Materials Today Proceedings",
-      "type": "Conference",
+      "type": "Conference Paper",
       "volume": "62",
       "page": "3239-3243",
       "year": "2022"
@@ -431,7 +431,7 @@
       "authors": ["Gyanendra K. Prajapati", "Rishabh Katla", "Bharti Singh"],
       "title": "Effect of variation of MoS2 concentration on the piezoelectric performance of PVDF-MoS2 based flexible nanogenerator",
       "name_of_publication": "Materials Today Proceedings",
-      "type": "Conference",
+      "type": "Conference Paper",
       "volume": "",
       "page": "",
       "year": "2021"
@@ -441,7 +441,7 @@
       "authors": ["Ajay Peri", "Sai Krishnan Madhvan", "Bharti Singh"],
       "title": "Investigation of the enhancement in the β-phase of PVDF as a function of MoSe2 concentration and its effect on the piezoelectric performance of the nanogenerator",
       "name_of_publication": "Materials Today Proceedings",
-      "type": "Conference",
+      "type": "Conference Paper",
       "volume": "",
       "page": "",
       "year": "2021"
@@ -451,7 +451,7 @@
       "authors": ["Vishal Singh", "Bharti Singh"],
       "title": "Fabrication of PVDF-transition metal dichalcogenides based flexible piezoelectric nanogenerator for energy harvesting applications",
       "name_of_publication": "Materials Today Proceedings",
-      "type": "Conference",
+      "type": "Conference Paper",
       "volume": "28",
       "page": "282-285",
       "year": "2020"
@@ -461,7 +461,7 @@
       "authors": ["Km. Komal", "Mukhtiyar Singh", "Bharti Singh"],
       "title": "Study of a non-volatile memory based on reduced graphene oxide and tin-oxide nanocomposite",
       "name_of_publication": "International Conference on Atomic, Molecular, Optical & Nano Physics with Application",
-      "type": "Conference",
+      "type": "Conference Paper",
       "volume": "",
       "page": "",
       "year": "-"
@@ -477,7 +477,7 @@
       ],
       "title": "CVD synthesis and characterization of ultrathin MoS2 film",
       "name_of_publication": "AIP Conference Proceedings",
-      "type": "Conference",
+      "type": "Conference Paper",
       "volume": "2276",
       "page": "20044",
       "year": "2020"
@@ -487,7 +487,7 @@
       "authors": ["Kanika Sharma", "Nitin Puri", "Bharti Singh"],
       "title": "Hexagonal boron nitride in sensing and biosensing applications",
       "name_of_publication": "Elsevier",
-      "type": "Book chapters",
+      "type": "Book Chapters",
       "volume": "",
       "page": "",
       "year": "2024"
@@ -502,7 +502,7 @@
       ],
       "title": "Fluoropolymer Nanocomposites for Piezoelectric Energy Harvesting Applications",
       "name_of_publication": "Elsevier",
-      "type": "Book chapters",
+      "type": "Book Chapters",
       "volume": "",
       "page": "",
       "year": "2023"
@@ -519,7 +519,7 @@
       ],
       "title": "Solar radiation and light materials interaction",
       "name_of_publication": "Elsevier",
-      "type": "Book chapters",
+      "type": "Book Chapters",
       "volume": "",
       "page": "",
       "year": "2020"
@@ -534,7 +534,7 @@
       ],
       "title": "Infrared radiation and materials interaction: Active, passive, transparent, and opaque coatings",
       "name_of_publication": "Elsevier",
-      "type": "Book chapters",
+      "type": "Book Chapters",
       "volume": "",
       "page": "",
       "year": "2020"
@@ -550,7 +550,7 @@
       ],
       "title": "Nanostructured TiO2 Ceramic Materials for Light and Mechanical Energy Harvesting Applications",
       "name_of_publication": "CRC Press Taylor & Francis Group",
-      "type": "Book chapters",
+      "type": "Book Chapters",
       "volume": "",
       "page": "",
       "year": "2020"
