@@ -1,6 +1,8 @@
 body{
-    background-image: url("../../assets/Newsbg.png");
-    background-size: cover; /* Ensure the image covers the entire background */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-attachment: fixed;
+
+      background-color: rgb(27, 63, 11);
+    /* background-image: url("../../assets/Newsbg.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; */
 }

@@ -177,6 +177,21 @@ flex-shrink: 0;
         font-size: 20px;
     }
 }
+
+.rightRH.gridLayout {
+    flex: 1;
+    min-width: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.researchImg {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
 @media(max-width:400px){
     .rMainContainer{
         justify-items: center;
