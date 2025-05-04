@@ -1,12 +1,12 @@
 import React from 'react'
 import './FormerMembers.css'
 import sampleMember from '../../../assets/sampleAlumni.png'
-import formerMembers from '../../../../data/members.json'
+import allMembers from '../../../../data/members.json'
 
 export const FormerMembers = () => {
   return (
     <div className="memberContainer">
-      {formerMembers.members.map((member, index) => (
+      {allMembers.formerMembers.map((member, index) => (
         <div className="memberCard" key={index}>
           <div
             className="memberImage"
@@ -17,12 +17,12 @@ export const FormerMembers = () => {
             }}
           ></div>
           <div className="memberDesc">
-            <div className="memberName">{member.name || 'James Watt'}</div>
+            <div className="memberName">{member.name || ''}</div>
             <div className="researchArea">
-              <b>Research Area:</b> {member.reserach_area || 'Steam engines, Light bulb, Electromagnetics'}
+              <b>Research Area:</b> {member.reserach_area || ''}
             </div>
             <div className="passout">
-              <b>Ph.D:</b> {member.completed_at || 'September 2022'}
+              <b>Ph.D:</b> {member.completed_at || ''}
             </div>
           </div>
         </div>

@@ -4,31 +4,24 @@ import './ResearchThemes.css';
 const researchData = [
   {
     link: "#",
-    title: "Development of Surface Enhanced Raman Scattering (SERS) based Biosensor for Rapid Detection of oligonucleotides",
-    fundingAgency: "DTU",
-    startYear: 2020,
-    endYear: 2024
-  },
-  {
-    link: "#",
-    title: "Indian Nanoelectronics Users Program - Idea to Innovation (INUP-i2i)",
-    fundingAgency: "IITD (Delhi), Delhi, India",
-    startYear: 2021,
-    endYear: 2024
-  },
-  {
-    link: "#",
-    title: "Ag Nanorods based Flexible Wearable Dry Electrodes for Long-Term EEG Monitoring (FIRP Project 2021)",
+    title: "Mechanical Energy Harvesting using MXene Functionalized Polymer Composite Nanofibers and Integrating it with Energy Storage Devices for IoT and Wearable Applications, SERB-SURE, 30 Lakhs (2023-2025).",
     fundingAgency: "DTU",
     startYear: 2023,
-    endYear: 2024
+    endYear: ''
   },
   {
     link: "#",
-    title: "AI-Driven Biosensors for Real-Time Diagnostics",
-    fundingAgency: "IIT Madras",
-    startYear: 2024,
-    endYear: 2026
+    title: "Tapping solar, wind and human energy; a hybrid photovoltaic/piezoelectric device based on 2D materials and their van der Waals heterostructures, UGC-Start Up Grant, 10 Lakhs (2018-2020).",
+    fundingAgency: "DTU",
+    startYear: 2018,
+    endYear: 2020
+  },
+  {
+    link: "#",
+    title: "Electrical Energy Harvesting using Monolayer MoS2 and MoS2-Graphene Heterostructures for Self Powering Electronic and Bioelectronics Devices, DST-INSPIRE Faculty Award, 35 Lakh, (2017-2022).",
+    fundingAgency: "DTU",
+    startYear: 2017,
+    endYear: 2022
   }
 ];
 
@@ -50,8 +43,8 @@ const ResearchTable = ({ data }) => (
             <td>{index + 1}</td>
             <td>{item.title}</td>
             <td>{item.fundingAgency}</td>
-            <td>{item.startYear} - {item.endYear}</td>
-            <td><a href={item.link} target="_blank" rel="noopener noreferrer">here</a></td>
+            <td>{item.startYear} - {item.endYear || 'Present'}</td>
+            <td><a href={item.link} rel="noopener noreferrer">here</a></td>
           </tr>
         ))}
       </tbody>
@@ -63,8 +56,8 @@ export const ResearchThemes = () => {
   const [activeTab, setActiveTab] = useState('ongoing');
 
   const currentYear = new Date().getFullYear();
-  const OngoingResearchData = researchData.filter(item => item.endYear >= currentYear);
-  const CompletedResearchData = researchData.filter(item => item.endYear < currentYear);
+  const OngoingResearchData = researchData.filter(item => item.endYear === '');
+  const CompletedResearchData = researchData.filter(item => (item.endYear < currentYear && item.endYear!==''));
 
   return (
     <div className="research-container">

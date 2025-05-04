@@ -1,13 +1,12 @@
 import React from 'react'
 import './teamMain.css'
-// import image from '../../../assets/'
 
 
 const TeamMain = () => {
   return (
     <div className='teamMain'>
      <div className="left">
-       <img src="/src/components/Team/TeamMain/HomeHero.jpg" className='team-main-image' alt="" />
+       <img src="https://res.cloudinary.com/dwgl88spd/image/upload/v1746278940/image_gpgshr.jpg" className='team-main-image' alt="" />
      </div>
      <div className="right">
         <h3>Our HOD</h3>

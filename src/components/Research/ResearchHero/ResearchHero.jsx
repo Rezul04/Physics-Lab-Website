@@ -12,7 +12,7 @@ export const ResearchHero = () => {
                 </div>
 
                 <div className="rightRH gridLayout">
-                {researchThemes.reserach_themes.slice(0, 4).map((theme, index) => (
+                {researchThemes.reserach_themes.map((theme, index) => (
                     <img
                         key={index}
                         src={theme.image}

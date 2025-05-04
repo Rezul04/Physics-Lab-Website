@@ -1,66 +1,68 @@
 {
-    "members": [
+    "formerMembers": [
     {
       "image_url": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865548/m-1_ocgpwq.jpg",
-      "name": "cdj",
-      "designation": "fkdj",
-      "reserach_area": "hkw",
-      "completed_at": "fhier",
+      "name": "Dr. K.M Komal",
+      "designation": "RESEARCH SCHOLAR",
+      "reserach_area": "Structural, Optical And Electrical Properties of Metal Oxide-2D Materials Based Composites For Non-Volatile Resistive Memory Devices",
+      "completed_at": "2024",
       "is_alumni":true,
-      "where_now": "wkdb"
+      "where_now": "Assistant professor at Gautam Budh University"
     },
     {
         "image_url": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865548/m-2_vzxchl.jpg",
-        "name": "cdj",
-        "designation": "fkdj",
-        "reserach_area": "hkw",
-        "completed_at": "fhier",
+        "name": "Dr. Vishal Singh",
+        "designation": "RESEARCH SCHOLAR",
+        "reserach_area": "Synthesis, Fabrication, and Characterisation of 2D Layered Nanomaterials and Polymers Based Flexible Piezoelectric and Triboelectric Nanogenerator for Energy Harvesting Applications",
+        "completed_at": "2023",
         "is_alumni":true,
-        "where_now": "wkdb"
+        "where_now": "POST-DOC AT IIT DELHI"
       },
       {
         "image_url": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865547/m-5_ywnzc4.jpg",
-        "name": "cdj",
-        "designation": "fkdj",
-        "reserach_area": "hkw",
-        "completed_at": "fhier",
+        "name": "Dr. Shilpa Rana",
+        "designation": "RESEARCH SCHOLAR",
+        "reserach_area": "Synthesis, Fabrication, and Characterization of Polymers-Carbon based Flexible Nanogenerator for Energy Harvesting Applications",
+        "completed_at": "2025",
         "is_alumni":true,
-        "where_now": "wkdb"
-      },
+        "where_now": "POST-DOC AT IIT DELHI"
+      }
+    ],
+    "currentMembers":[
+
       {
         "image_url": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865547/m-3_dcrmle.jpg",
-        "name": "cdj",
-        "designation": "fkdj",
-        "reserach_area": "hkw",
+        "name": "Dibyajyoti giri",
+        "designation": "PROJECT ASSOCIATE",
+        "reserach_area": "Energy Storage and Energy Harvesting",
         "completed_at": "fhier",
-        "is_alumni":true,
+      
         "where_now": "wkdb"
       },
       {
         "image_url": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865546/m-6_ulywkr.jpg",
-        "name": "cdj",
-        "designation": "fkdj",
-        "reserach_area": "hkw",
+        "name": "Ankita Dahiya",
+        "designation": "RESEARCH SCHOLAR",
+        "reserach_area": "Piezoelectric Materials for Energy Harvesting Application and Catalytic Removal of Organic Pollutants",
         "completed_at": "fhier",
         "is_alumni":true,
         "where_now": "wkdb"
       },
       {
         "image_url": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865546/m-7_sut9ni.jpg",
-        "name": "cdj",
-        "designation": "fkdj",
-        "reserach_area": "hkw",
+        "name": "Praveen Kumar",
+        "designation": "RESEARCH SCHOLAR",
+        "reserach_area": "Syntheis,Fabrication, and Characterisation of Polymer Mxene based Nanocomposite for Enrgy Harvesting and  Storage Applications",
         "completed_at": "fhier",
-        "is_alumni":true,
+      
         "where_now": "wkdb"
       },
       {
         "image_url": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865545/m-4_bvb4hv.jpg",
-        "name": "cdj",
-        "designation": "fkdj",
-        "reserach_area": "hkw",
+        "name": "Rekha Singh",
+        "designation": "RESEARCH SCHOLAR",
+        "reserach_area": "Studies on Mercury Cadmium Telluride (MCT) based High Operating Infrared Detector",
         "completed_at": "fhier",
-        "is_alumni":true,
         "where_now": "wkdb"
       }
   ]
