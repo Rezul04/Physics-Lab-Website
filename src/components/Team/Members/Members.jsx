@@ -2,7 +2,7 @@ import React from 'react';
 import './Members.css';
 import allMembers from '../../../../data/members.json'
 
-const MemberCard = ({ name, reserach_area, image_url }) => (
+const MemberCard = ({ name, reserach_area, image_url, designation }) => (
   <div className="memberCard">
     <div 
       className="memberImage" 
@@ -11,7 +11,8 @@ const MemberCard = ({ name, reserach_area, image_url }) => (
     <div className="memberDesc">
       <div className="memberName">{name}</div>
       <div className="researchArea">
-        <b>Research Area:</b> {reserach_area}
+        <p className='member-additional-details'><b>Research Area:</b> {reserach_area}</p>
+        <p className='member-additional-details'><b>Designation:</b> {designation}</p>
       </div>
     </div>
   </div>
