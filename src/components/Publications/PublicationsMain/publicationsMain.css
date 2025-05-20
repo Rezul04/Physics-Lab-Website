@@ -3,18 +3,23 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* Header */
-.yearBox1 {
-  border: 1px solid transparent;
+.yearBo {
+  display: flex;
+  justify-content: center;  /* Center content horizontally */
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.yearBo span {
   background-color: peachpuff;
   border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-left: 15px;
-  font-size: 4rem;
-  margin-bottom: 1rem;
+  font-weight: 700;
+  padding: 0.1em 0.3em; /* add some padding inside the colored background */
+  border: 1px solid transparent;
+  color: #000; /* or whatever text color you want */
+  display: inline-block; /* shrink-wrap the span */
 }
+
 
 /* Filters */
 .choiceHolder {
