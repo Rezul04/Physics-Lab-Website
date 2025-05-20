@@ -16,7 +16,8 @@ const PublicationsMain = () => {
     <div className="publicationMain">
       <div className="list">
         <div className="publication_body">
-          <div className="yearBox1">Publications</div>
+          <div className="yearBo"><span>
+         Publications   </span></div>
 
           <div className="choiceHolder">
             {filterOptions.map(option => (
