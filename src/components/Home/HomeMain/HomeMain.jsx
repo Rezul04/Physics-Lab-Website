@@ -4,7 +4,7 @@ import './homeMain.css';
 const HomeMain = () => {
   return (
     <div className='homeMain'>
-      <marquee><h1>Sample floating text</h1></marquee>
+      <marquee><h1>Ph.D Vacancy: Highly motivated candidates having good academic and research background are invited to apply in our "Advanced Materials and Device Group"</h1></marquee>
         <div className="homeMainLeft">
         </div>
         <div className="homeMainRight">

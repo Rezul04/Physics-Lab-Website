@@ -9,7 +9,7 @@ const TeamMain = () => {
        <img src="https://res.cloudinary.com/dwgl88spd/image/upload/v1746278940/image_gpgshr.jpg" className='team-main-image' alt="" />
      </div>
      <div className="right">
-        <h3>Our HOD</h3>
+        <h3>Lab In-Charge</h3>
         <div className="content">
         Dr. Bharti Singh is currently serving as an Assistant Professor in the Department of Applied Physics at Delhi Technological University (DTU). She holds a Ph.D. in Physics from the Indian Institute of Technology (IIT) Delhi, earned between 2008 and 2014, under the supervision of Prof. B. R. Mehta. Her doctoral research focused on the “Structural and electronic properties of copper oxide-based hybrid and nanoscale resistive memory devices.” Prior to her Ph.D., she completed her Master of Science (M.Sc.) in Physics with a specialization in Electronics from Delhi University between 2005 and 2007, and a Bachelor of Science (B.Sc.) in Physics (Hons.) from Miranda House College, Delhi University (2002–2005). Her undergraduate project was titled "Password enabled obstacle sensing robot."
 

@@ -37,7 +37,7 @@ const Footer = () => {
             Shahbad Daulatpur,<br />
             Main Bawana Road,<br />
             Delhi-110042, India<br /><br />
-            Email: bhartisingh@dtu.ac.in
+            Email: bhartisingh@dtu.ac.in <br />amdldtu@gmail.com
           </p>
         </div>
 
