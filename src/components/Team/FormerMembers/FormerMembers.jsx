@@ -66,6 +66,7 @@ export const FormerMembers = () => {
           className="memberImage"
           style={{
             backgroundImage: `url("${member.image_url || sampleMember}")`,
+            backgroundSize: 'cover'
           }}
         />
         <div className="memberDesc">
