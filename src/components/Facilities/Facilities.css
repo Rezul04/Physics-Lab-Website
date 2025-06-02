@@ -34,15 +34,11 @@
   gap: 2rem 3rem; /* vertical gap 2rem, horizontal gap 3rem */
   margin-top: 2rem;
 }
-<<<<<<< Updated upstream
-
-=======
 .description {
   font-size: 14px;
   color: #555;
   margin-top: 0.5em;
 }
->>>>>>> Stashed changes
 .content-box {
   background: #ffffff;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);

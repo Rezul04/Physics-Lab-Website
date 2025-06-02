@@ -14,10 +14,7 @@ export const Facilities = () => {
               <img src={facility.image} alt={`Facility ${index + 1}`} />
             </div>
             <h2>{facility.title}</h2>
-<<<<<<< Updated upstream
-=======
             <p className="description">{facility.description}</p>
->>>>>>> Stashed changes
             {/* Uncomment below if you want to show features */}
             {/* <div className="text-container">
               <ul>
