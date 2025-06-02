@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
     "facilities": [
       {
         "title": "Centrifuge",
@@ -114,3 +115,108 @@
       }
     ]
 }
+=======
+  "facilities": [
+    {
+      "title": "REMI PR-24 centrifuge",
+      "description": "The REMI PR-24 centrifuge is a powerful, precision-driven system designed for rapid and reliable sample separation. With digital speed control, auto-imbalance safety, and multi-rotor compatibility, it ensures high efficiency and safety, making it ideal for advanced research, diagnostics, and nanofabrication labs.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865708/Centrifuge-min_ttl5wv.jpg"
+    },
+    {
+      "title": "CVD tube furnace",
+      "description": "This high-performance CVD tube furnace enables synthesis of nanostructures, thin films, and 2D materials with atomic precision. It features programmable high-temperature control, a Mass Flow Controller (MFC), and a quartz reaction chamber for uniform deposition and compatibility with various gas environments.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865709/CVD-min_rjduaw.jpg"
+    },
+    {
+      "title": "Decade Resistance Box",
+  "description": "The ZEAL Decade Resistance Box is a precision device for setting accurate resistance values across a wide range (1 Ω to 100 MΩ) using rotary decade switches. It's ideal for circuit calibration, testing, and educational use, with quick-connect terminals for easy integration.",
+  "image": "https://res.cloudinary.com/dwjlajbov/image/upload/v1748873294/Screenshot_2025-06-02_193741_kcux9r.png"
+},
+    {
+      "title": "Keithley DMM7510",
+      "description": "The Keithley DMM7510 is a precision 7½-digit multimeter with nanovolt and picoamp resolution, 1 MS/s digitizing, and 4-wire sensing. It includes a touchscreen interface for advanced data visualization, making it ideal for electronics R&D and capturing fast transients.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865709/Digital_Graphical_Sampling_Multimeter-min_wwmidb.jpg"
+    },
+    {
+      "title": "Electrodynamic Shaker (Model VEM-C025)",
+      "description": "The VEM-C025 Electrodynamic Shaker delivers precise high-frequency vibrations to simulate real-world dynamic environments. Its robust electromagnetic design supports repeatable testing, essential for structural validation in aerospace, automotive, and electronics industries.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865710/Electrodynamic_Shaker-min_drgmky.jpg"
+    },
+    {
+      "title": "FTIR",
+      "description": "The PerkinElmer Spectrum Two FTIR Spectrometer offers fast and precise molecular analysis with high sensitivity. Its compact design and intuitive software make it ideal for identifying compounds in research, quality control, and field applications.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865710/FTIR-min_pai20y.jpg"
+    },
+    {
+      "title": "Fume Hood",
+      "description": "The NmoLAB Fume Hood ensures safe chemical handling by capturing and exhausting toxic fumes. Features include a stainless-steel workspace, splash-resistant sink, multiple utility outlets, and a sash-controlled airflow system, ensuring high safety standards.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865712/Fume_Hood-min_thkifl.jpg"
+    },
+    {
+      "title": "High Resistance Meter",
+      "description": "The Keithley 6517B Electrometer/High Resistance Meter measures ultra-high resistance (up to 10¹⁸ Ω) and low currents at the femtoamp level. It features an integrated voltage source and low noise, ideal for characterizing insulating materials and advanced electronic components.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865713/High_Resistance_Meter-min_ym8kve.jpg"
+    },
+    {
+      "title": "Hot Air Oven",
+      "description": "This hot air oven features a digital temperature controller (AI-7981), LED status indicators, and an MCB switch. It ensures precise heating and uniform air circulation, ideal for lab sterilization and drying processes.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865708/Hot_Air_Oven-min_svmcbc.jpg"
+    },
+    {
+      "title": "Low-noise Current Preamplifier",
+      "description": "The Stanford Research Systems SR570 is a low-noise current preamplifier ideal for sensitive measurements. It provides selectable gain, bias, and filtering with precise frequency control, essential for low-level signal detection.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865713/Low-noise_Current_Preamplifier-min_hpuhzr.jpg"
+    },
+    {
+      "title": "Magnetic Stirrer",
+      "description": "The IKA C-MAG HS 7 magnetic stirrer has a ceramic-coated hot plate, offering chemical resistance, temperature precision, and effective stirring. Independent control knobs provide safety and consistency in heating lab solutions.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865714/Magnetic_Stirrer-min_d1tunl.jpg"
+    },
+    {
+      "title": "Muffle Furnace",
+      "description": "The Metrex MF-12P(A) Muffle Furnace supports high-temperature applications like ashing and material testing. It features a touchscreen controller, separate switches, and real-time current monitoring for precision and safety.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865716/Muffle_Furnace-min_byj1fe.jpg"
+    },
+    {
+      "title": "Oscilloscope",
+      "description": "The Tektronix MDO34 oscilloscope offers 4 analog channels, an RF input, and up to 2.5 GS/s sampling. Its large touchscreen and advanced analysis tools make it ideal for mixed signal testing in electronics.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865718/Oscilloscope-min_qekg3z.jpg"
+    },
+    {
+      "title": "pH Meter",
+      "description": "This benchtop digital pH meter features a sensitive electrode, automatic temperature compensation, and calibration functions. Its large LCD display makes it ideal for precise lab pH and temperature measurements.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745866461/ph_meter_bfe0zq.webp"
+    },
+    {
+      "title": "Power Amplifier",
+      "description": "The MPA-0206 Power Amplifier and MVM-555 Digital Vibration Meter combo by Micron generates and amplifies signals and measures vibration parameters, making it ideal for mechanical system testing and validation.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865718/Power_amplifier-min_izez9w.jpg"
+    },
+    {
+      "title": "Source Measure Unit",
+      "description": "The Keithley 2450 SourceMeter® combines a precision power supply, current source, 6.5-digit DMM, electronic load, and trigger controller. It's perfect for IV characterization of semiconductors and materials.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865718/Source_Measure_Unit-min_wuyeiu.jpg"
+    },
+    {
+      "title": "Thermal Vapour Deposition",
+      "description": "The SMART COAT 3.0 by HHV is a thermal evaporation unit used for vacuum thin-film deposition. With precise control over vacuum, temperature, and deposition rate, it's suitable for research and semiconductor coating tasks.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865720/Thermal_Vapour_Deposition-min_oaegdd.jpg"
+    },
+    {
+      "title": "Ultrasonic Cleaner",
+      "description": "This ultrasonic cleaner uses high-frequency sound waves (20–40 kHz) to clean delicate objects. It includes digital timer, heater controls, and a stainless steel tank, ensuring efficient and gentle cleaning without abrasion.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865721/Ultrasonic_Cleaner-min_ljwym2.jpg"
+    },
+    {
+      "title": "Vaccum Oven",
+      "description": "The vacuum oven is used for heat treatment and drying under reduced pressure. It offers uniform temperature control, reduced oxidation, and integrated vacuum pumping, ideal for handling sensitive materials.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865721/Vacuum_Oven-min_vryndz.jpg"
+    },
+    {
+      "title": "Work Station",
+      "description": "The U Rack is a mobile workstation for organizing sensitive electronic equipment like multimeters and source meters. It supports cable management, equipment safety, and lab mobility.",
+      "image": "https://res.cloudinary.com/dwgl88spd/image/upload/v1745865721/work_station-min_mv4nu1.jpg"
+    }
+  ]
+}
+>>>>>>> Stashed changes
