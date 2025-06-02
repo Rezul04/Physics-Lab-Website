@@ -42,11 +42,11 @@ export const Header = () => {
       <div className="logo-container">
       <Link to='/' className='homeLink'>
         <img src={logo} alt="Logo" className="logo" /></Link>
-        <h1 className="title">DTU Physics Lab</h1>
+        <h1 className="title">DTU AMD Lab</h1>
       </div>
       <div className="nav-links">
         <Link to='/'>Home</Link>
-        <Link to="/news">Events</Link>
+        {/* <Link to="/news">Events</Link> */}
         <Link to="/research">Research</Link>
         <Link to="/publications">Publications</Link>
         <Link to="/team">Team</Link>
@@ -63,7 +63,7 @@ export const Header = () => {
         <div className={` ${showMenu?'showMobMenu':'myMobMenu'} `}>
           {/* this is mobile view navbar */}
           <Link onClick={toggleMenu} to="/" activeClass='active' className="mobItem"><span className='navLink'>Home</span></Link>
-          <Link onClick={toggleMenu} to="/news"  activeClass='active' className="mobItem">News</Link>
+          {/* <Link onClick={toggleMenu} to="/news"  activeClass='active' className="mobItem">News</Link> */}
           <Link onClick={toggleMenu} to="/research" activeClass='active'  className="mobItem">Research</Link>
           <Link onClick={toggleMenu} to="/publications" activeClass='active'  className="mobItem">Publications</Link>
           <Link onClick={toggleMenu} to="/team" activeClass='active' className="mobItem">Team</Link>

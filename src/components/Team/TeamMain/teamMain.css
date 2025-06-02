@@ -1,94 +1,95 @@
 .teamMain {
-    margin: 1rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap; /* Ensure that the content wraps in small screens */
+  margin: 2rem auto;
+  padding: 0 0rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+  max-width: 1200px;
 }
 
-.teamMain > .left {
-    width: 35vw;
-    margin: 2rem;
-    min-height: 70%;
+/* Left: Image container */
+.teamMain .left {
+  flex: 1.4 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.teamMain > .left > img {
-    width: 100%; /* Ensure the image fills the container */
-    height: auto;
+/* Image */
+.teamMain .left img {
+  max-width: 100%;
+  max-height: 60vh;
+  object-fit: contain;
+  border-radius: 10px;
+  display: block;
 }
 
-.teamMain > .right {
-    display: flex;
+/* Right: Text section */
+.teamMain .right {
+  flex: 1 1 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.teamMain .right h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.teamMain .right .content {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+/* Tablet view */
+@media (max-width: 900px) {
+  .teamMain {
     flex-direction: column;
-    justify-content: space-between;
-    height: 70%;
-    width: 55vw;
-    font-size: calc(55vw * 0.5); /* Adjust font size relative to screen size */
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .teamMain .left,
+  .teamMain .right {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .teamMain .right h3 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .teamMain .right .content {
+    font-size: 1.1rem;
+  }
+
+  .teamMain .left img {
+    max-height: 60vh;
+  }
 }
 
-.teamMain > .right > h3 {
-    font-size: 4rem;
-}
+/* Mobile view */
+@media (max-width: 480px) {
+  .teamMain {
+    padding: 0.5rem;
+  }
 
-.teamMain > .right > .content {
-    font-size: 1.6rem;
-}
+  .teamMain .right .content {
+    font-size: 1rem;
+  }
 
-@media screen and (max-width: 900px) {
-    .teamMain {
-        flex-direction: column; /* Stack the sections on smaller screens */
-        align-items: center; /* Center the content */
-        margin: 1rem; /* Reduce margin for smaller screens */
-    }
+  .teamMain .right h3 {
+    font-size: 1.8rem;
+  }
 
-    .teamMain > .left {
-        width: 80%; /* Increase width on smaller screens */
-        margin: 1rem 0; /* Reduce margin */
-        min-height: 50%; /* Adjust height for small screens */
-    }
-
-    .teamMain > .right {
-        width: 80%; /* Increase width on smaller screens */
-        font-size: calc(40vw * 0.45); /* Adjust font size for smaller screens */
-        text-align: center; /* Center the text */
-    }
-
-    .teamMain > .right > h3 {
-        font-size: 3rem; /* Adjust header size */
-    }
-
-    .teamMain > .right > .content {
-        font-size: 1.4rem; /* Adjust content font size */
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .teamMain {
-        flex-direction: column; /* Stack the content vertically on very small screens */
-        margin: 0.5rem; /* Adjust margin for very small screens */
-    }
-
-    .teamMain > .left {
-        width: 100%; /* Full width on small screens */
-        margin: 0.5rem 0; /* Reduce margin */
-    }
-
-    .teamMain > .right {
-        width: 100%; /* Full width on small screens */
-        font-size: calc(50vw * 0.4); /* Adjust font size for small mobile screens */
-    }
-
-    .teamMain > .right > h3 {
-        font-size: 2.5rem; /* Adjust header size */
-    }
-
-    .teamMain > .right > .content {
-        font-size: 1.2rem; /* Adjust content font size */
-    }
-}
-
-.team-main-image {
-    width: 80%;
-    height: auto; /* Maintain aspect ratio */
-    max-height: 50%; /* Ensure image does not grow too large */
+  .teamMain .left img {
+    max-height: 50vh;
+  }
 }

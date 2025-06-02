@@ -37,8 +37,7 @@ const Footer = () => {
             Shahbad Daulatpur,<br />
             Main Bawana Road,<br />
             Delhi-110042, India<br /><br />
-            Phone: 123-456-7890<br />
-            Email: info@example.com
+            Email: bhartisingh@dtu.ac.in <br />amdldtu@gmail.com
           </p>
         </div>
 
